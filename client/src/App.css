@@ -1,45 +1,243 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/************************************
+The font-family property specifies 
+the font to be used for the text 
+inside the body 
+************************************/
+body {
+  font-family: Poppins, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+}
+
+/******** START OF CSS FOR NAV BAR *******/
+
+li,
+a,
+button {
+  /* stylelint-disable-next-line font-family-name-quotes */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  cursor: pointer;
+  margin-right: auto;
 }
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.nav__links {
+  list-style: none;
 }
 
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.nav__links li a {
+  transition: all 0.3 ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+/******** END OF CSS FOR NAV BAR *******/
+
+/***** START OF CSS FOR ANNIMATION FOR THE PHOTO OF AIDEN ******/
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 
-  to {
-    transform: rotate(360deg);
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.photoOfAiden {
+  animation: morph 8s ease-in-out infinite;
+  background-image: url('./images/photoOfAiden.JPG');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid white;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  height: 27rem; /* change me to your needs */
+  position: relative;
+  transition: all 1s ease-in-out;
+  width: 35rem;
+}
+
+/* stylelint-disable-next-line media-feature-range-notation */
+@media (max-width: 900px) {
+  .content {
+    flex-direction: column;
+    gap: 3rem;
+    height: 0;
+    padding-bottom: 100%; /* Maintain 1:1 aspect ratio */
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
   }
 }
 
-.card {
-  padding: 2em;
+/***** END OF CSS FOR ANNIMATION OF THE PHOTO OF AIDEN ******/
+
+/******* STARTING OF CSS FOR LINKEDIN AND GITHUB *********/
+.fa-linkedin::before {
+  content: '\f08c';
 }
 
-.read-the-docs {
-  color: #888;
+a .fab.fa-linkedin {
+  font-size: 55px;
+}
+
+.fa-github::before {
+  content: '\f09b';
+}
+
+a .fa-github {
+  font-size: 55px;
+}
+
+.fa-linkedin {
+  margin-right: 1rem;
+}
+
+/******* ENDING OF CSS FOR LINKEDIN AND GITHUB *********/
+
+/****** MARGIN FOR WEBSITE ********/
+.container {
+  margin: 0 auto;
+  max-width: 107rem;
+  padding: 0 10rem;
+}
+
+/****** MARGIN FOR WEBSITE ********/
+
+.content {
+  align-items: center;
+  display: flex;
+  gap: 10rem;
+  height: auto;
+  justify-content: center;
+  position: relative;
+}
+
+.meet-main {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  position: relative;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.meet-text h1 {
+  font-size: 5.5rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.meet-text p {
+  font-family: Mulish, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.meet {
+  margin-top: 10rem;
+  margin-bottom: 20rem;
+  background-color: #24252a;
+  display: flex;
+  flex-direction: column;
+  height: 51vh;
+  position: relative;
+  width: 100%;
+}
+
+/********
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  list-style: none;
+}
+
+.skills {
+  border-right: 2px solid rgba(45,46,50,.5);
+  color: #2d2e32;
+  font-family: Mulish,sans-serif;
+  font-weight: 600;
+  margin-right: 7rem;
+  padding-right: 2rem;
+}
+
+*********/
+
+.skill-content {
+  /*
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  position: relative;
+  */
+  color: white;
+
+  /*
+  margin-bottom: 20px;
+  */
+}
+
+.skill-content h2 {
+  font-size: 5.5rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: auto;
 }

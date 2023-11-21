@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import Projects from './Projects.tsx';
 import Skills from './Skills.tsx';
 import About from './About.tsx';
+import Pdf from '../Documents/Document.pdf';
 
 export default function App() {
   return (
@@ -29,7 +30,7 @@ export default function App() {
           </ul>
         </nav>
         <a className="cta" href="#contact">
-          <button>Contact</button>
+          <button className="contact-button">Contact</button>
         </a>
       </header>
       <section id="home" className="meet">
@@ -44,7 +45,7 @@ export default function App() {
                   Hi, I'm Aiden Peace. A passionate Front-end React Developer
                   based in Lake Forest, California. 📍
                 </p>
-                <span>
+                <span className="contact-row">
                   <a
                     href="https://www.linkedin.com/in/aiden-peace-025918211/"
                     target="_blank"
@@ -62,6 +63,13 @@ export default function App() {
                       icon={faGithub}
                       className="fab fa-github"
                     />
+                  </a>
+                  <a
+                    className="resume"
+                    href={Pdf}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <button className="resume-button">View Resume</button>
                   </a>
                 </span>
               </div>

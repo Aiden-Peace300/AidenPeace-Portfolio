@@ -37,10 +37,9 @@ export default function App() {
         <div className="container">
           <div className="content">
             <div className="meet-main">
+              <div className="photoOfAiden"></div>
               <div className="meet-text">
-                <h1>
-                  Front-End React <br /> Developer
-                </h1>
+                <h2 className="position">Front-End React Developer</h2>
                 <p>
                   Hi, I'm Aiden Peace. A passionate Front-end React Developer
                   based in Lake Forest, California. 📍
@@ -73,7 +72,6 @@ export default function App() {
                   </a>
                 </span>
               </div>
-              <div className="photoOfAiden"></div>
             </div>
           </div>
         </div>

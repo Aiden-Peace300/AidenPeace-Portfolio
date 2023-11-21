@@ -18,13 +18,15 @@
 }
 
 .image-container:hover,
-.image-container:hover h2 {
+.image-container:hover h2,
+.image-container:hover .html-logo {
   background-color: #c0aaff;
   transition: background-color 0.8s ease;
 }
 
 .js-logo,
-.ts-logo {
+.ts-logo,
+.html {
   width: 100%;
   height: auto;
   max-width: 15rem;

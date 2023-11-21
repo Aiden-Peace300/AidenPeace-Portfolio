@@ -1,5 +1,6 @@
 import JsLogo from '../skills/javaScript.png';
 import TsLogo from '../skills/typeScript.png';
+import HTMLLogo from '../skills/html.png';
 import './Skills.css';
 
 export default function Skill() {
@@ -33,6 +34,21 @@ export default function Skill() {
             margin: '.5rem 0 1rem 0',
           }}>
           TypeScript
+        </h2>
+      </a>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="html-logo html" src={HTMLLogo} alt="html logo" />
+        <h2
+          style={{
+            fontSize: '2rem',
+            textAlign: 'center',
+            margin: '.5rem 0 1rem 0',
+          }}>
+          HTML 5
         </h2>
       </a>
     </div>

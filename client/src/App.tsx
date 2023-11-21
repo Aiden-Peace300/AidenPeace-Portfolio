@@ -2,7 +2,8 @@ import './App.css';
 import logo from '../images/aidensLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the styles
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import Skills from './Skills.tsx';
 
 export default function App() {
   return (
@@ -73,7 +74,7 @@ export default function App() {
             <h2>Services</h2>
             <div className="skills">
               <p>Tech Stack Skills</p>
-              <div className="logos"></div>
+              <Skills />
             </div>
           </div>
         </div>

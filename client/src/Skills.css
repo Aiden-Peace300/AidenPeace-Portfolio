@@ -8,27 +8,38 @@
 }
 
 .image-container {
-  flex: 0 0 calc(20% - 1rem);
+  flex: 0 0 calc(14.2857% - 1rem);
   border: 2px solid #4a4a4a;
   border-radius: 8px;
   overflow: hidden;
   padding: 2rem 2rem 0;
   margin: 0.5rem;
   text-align: center;
-}
-
-.image-container:hover,
-.image-container:hover h2,
-.image-container:hover .html-logo {
-  background-color: #c0aaff;
-  transition: background-color 0.8s ease;
+  height: 13.5rem;
 }
 
 .js-logo,
 .ts-logo,
-.html {
+.react {
   width: 100%;
   height: auto;
   max-width: 15rem;
   max-height: 15rem;
+}
+
+.html,
+.css {
+  width: 100%;
+  height: auto;
+  max-width: 12rem;
+  max-height: 13rem;
+}
+
+.image-container:hover,
+.image-container:hover h2,
+.image-container:hover .html-logo,
+.image-container:hover .css-logo,
+.image-container:hover .react-logo {
+  background-color: #c0aaff;
+  transition: background-color 0.8s ease;
 }

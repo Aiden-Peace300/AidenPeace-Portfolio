@@ -71,9 +71,8 @@ export default function App() {
       <section id="services" className="services">
         <div className="container">
           <div className="skill-content">
-            <h2>Services</h2>
+            <h2>Tech Stack</h2>
             <div className="skills">
-              <p>Tech Stack Skills</p>
               <Skills />
             </div>
           </div>

@@ -71,7 +71,8 @@
 .image-container:hover .postgresql-logo,
 .image-container:hover .git-logo,
 .image-container:hover .npm-logo,
-.image-container:hover .vue-logo {
+.image-container:hover .vue-logo,
+.image-container:hover .docker-logo {
   background-color: white;
   transition: background-color 0.8s ease;
 }
@@ -88,7 +89,8 @@
 .image-container:hover .GitLogo,
 .image-container:hover .ExpressLogo,
 .image-container:hover .NPMLogo,
-.image-container:hover .VueLogo {
+.image-container:hover .VueLogo,
+.image-container:hover .DockerLogo {
   color: rgb(36, 37, 42);
   transition: background-color 0.8s ease;
 }

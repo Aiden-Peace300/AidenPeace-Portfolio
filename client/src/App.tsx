@@ -13,7 +13,7 @@ export default function App() {
         <nav>
           <ul className="nav__links">
             <li>
-              <a href="#home">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
               <a href="#services">Services</a>

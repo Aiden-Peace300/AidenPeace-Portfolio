@@ -30,13 +30,13 @@
   }
 }
 
-@media only screen and (width < 1258px) {
+@media only screen and (width < 1037px) {
   .image-container {
     flex: 0 0 calc(25% - 1rem); /* 4 items per row */
   }
 }
 
-@media only screen and (width < 1066px) {
+@media only screen and (width < 700px) {
   .image-container {
     flex: 0 0 calc(33.3333% - 1rem); /* 3 items per row */
   }

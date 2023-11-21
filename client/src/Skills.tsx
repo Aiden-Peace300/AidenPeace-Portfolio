@@ -12,6 +12,12 @@ import GitLogo from '../skills/git.png';
 import NPMLogo from '../skills/npm.png';
 import VueLogo from '../skills/vue.png';
 import DockerLogo from '../skills/docker.png';
+import VisualStudioLogo from '../skills/visualStudio.png';
+import FigmaLogo from '../skills/figma.png';
+import WebpackLogo from '../skills/webpack.png';
+import PycharmLogo from '../skills/pycharm.png';
+import VimLogo from '../skills/vim.png';
+import AwsLogo from '../skills/aws.png';
 import './Skills.css';
 
 export default function Skill() {
@@ -247,6 +253,110 @@ export default function Skill() {
             margin: '2.5rem 0 1rem 0',
           }}>
           Express
+        </h2>
+      </a>
+      <a
+        href="https://aws.amazon.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="aws-logo react" src={AwsLogo} alt="aws logo" />
+        <h2
+          className="AwsLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '2.3rem 0 1rem 0',
+          }}>
+          AWS
+        </h2>
+      </a>
+      <a
+        href="https://code.visualstudio.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="vs-logo react" src={VisualStudioLogo} alt="vs logo" />
+        <h2
+          className="VisualStudioLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '1.5rem 0 1rem 0',
+          }}>
+          Visual Studio
+        </h2>
+      </a>
+      <a
+        href="https://www.jetbrains.com/pycharm/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img
+          className="pycharm-logo figma"
+          src={PycharmLogo}
+          alt="pycharm logo"
+        />
+        <h2
+          className="PycharmLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '2.5rem 0 1rem 0',
+          }}>
+          Pycharm
+        </h2>
+      </a>
+      <a
+        href="https://www.vim.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="vim-logo vim" src={VimLogo} alt="vim logo" />
+        <h2
+          className="VimLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '1.5rem 0 1rem 0',
+          }}>
+          Vim
+        </h2>
+      </a>
+      <a
+        href="https://www.figma.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="figma-logo figma" src={FigmaLogo} alt="figma logo" />
+        <h2
+          className="FigmaLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '2.5rem 0 1rem 0',
+          }}>
+          Figma
+        </h2>
+      </a>
+      <a
+        href="https://webpack.js.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img
+          className="webpack-logo figma"
+          src={WebpackLogo}
+          alt="webpack logo"
+        />
+        <h2
+          className="WebpackLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '2.5rem 0 1rem 0',
+          }}>
+          Webpack
         </h2>
       </a>
     </div>

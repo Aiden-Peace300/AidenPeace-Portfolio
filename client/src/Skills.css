@@ -24,7 +24,8 @@
 .python,
 .cpp,
 .node,
-.express {
+.express,
+.vim {
   width: 100%;
   height: auto;
   max-width: 15rem;
@@ -43,7 +44,7 @@
 .express-logo {
   margin-top: 1.5rem;
   width: 7.4rem;
-  height: 5rem;
+  height: 4.7rem;
 }
 
 .postgresql-logo,
@@ -59,6 +60,14 @@
   margin-top: 2rem;
 }
 
+.figma {
+  height: 6rem;
+}
+
+.aws-logo {
+  margin-top: 1.5rem;
+}
+
 .image-container:hover,
 .image-container:hover h2,
 .image-container:hover .html-logo,
@@ -72,9 +81,15 @@
 .image-container:hover .git-logo,
 .image-container:hover .npm-logo,
 .image-container:hover .vue-logo,
-.image-container:hover .docker-logo {
+.image-container:hover .docker-logo,
+.image-container:hover .vs-logo,
+.image-container:hover .figma-logo,
+.image-container:hover .webpack-logo,
+.image-container:hover .pycharm-logo,
+.image-container:hover .vim-logo,
+.image-container:hover .aws-logo {
   background-color: white;
-  transition: background-color 0.8s ease;
+  transition: background-color 0.6s ease;
 }
 
 .image-container:hover .JsLogo,
@@ -90,7 +105,13 @@
 .image-container:hover .ExpressLogo,
 .image-container:hover .NPMLogo,
 .image-container:hover .VueLogo,
-.image-container:hover .DockerLogo {
+.image-container:hover .DockerLogo,
+.image-container:hover .VisualStudioLogo,
+.image-container:hover .FigmaLogo,
+.image-container:hover .WebpackLogo,
+.image-container:hover .PycharmLogo,
+.image-container:hover .VimLogo,
+.image-container:hover .AwsLogo {
   color: rgb(36, 37, 42);
-  transition: background-color 0.8s ease;
+  transition: background-color 0.6s ease;
 }

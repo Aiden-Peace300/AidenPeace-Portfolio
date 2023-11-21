@@ -3,6 +3,8 @@ import TsLogo from '../skills/typeScript.png';
 import HTMLLogo from '../skills/html.png';
 import CSSLogo from '../skills/css.png';
 import ReactLogo from '../skills/react.png';
+import PythonLogo from '../skills/python.png';
+import CppLogo from '../skills/cpp.png';
 import './Skills.css';
 
 export default function Skill() {
@@ -78,39 +80,39 @@ export default function Skill() {
           style={{
             fontSize: '1rem',
             textAlign: 'center',
-            margin: '2.3rem 0 1rem 0',
+            margin: '2rem 0 1rem 0',
           }}>
           React
         </h2>
       </a>
       <a
-        href="https://react.dev/"
+        href="https://www.python.org/"
         target="_blank"
         rel="noopener noreferrer"
         className="image-container">
-        <img className="react-logo react" src={ReactLogo} alt="react logo" />
+        <img className="python-logo react" src={PythonLogo} alt="python logo" />
         <h2
           style={{
             fontSize: '1rem',
             textAlign: 'center',
-            margin: '2.3rem 0 1rem 0',
+            margin: '1.2rem 0 1rem 0',
           }}>
-          React
+          Python
         </h2>
       </a>
       <a
-        href="https://react.dev/"
+        href="https://isocpp.org/"
         target="_blank"
         rel="noopener noreferrer"
         className="image-container">
-        <img className="react-logo react" src={ReactLogo} alt="react logo" />
+        <img className="cpp-logo react" src={CppLogo} alt="cpp logo" />
         <h2
           style={{
             fontSize: '1rem',
             textAlign: 'center',
-            margin: '2.3rem 0 1rem 0',
+            margin: '1.3rem 0 1rem 0',
           }}>
-          React
+          Cpp
         </h2>
       </a>
     </div>

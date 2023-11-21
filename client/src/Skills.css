@@ -15,12 +15,14 @@
   padding: 2rem 2rem 0;
   margin: 0.5rem;
   text-align: center;
-  height: 13.5rem;
+  height: 11.5rem;
 }
 
 .js-logo,
 .ts-logo,
-.react {
+.react,
+.python,
+.cpp {
   width: 100%;
   height: auto;
   max-width: 15rem;
@@ -28,7 +30,8 @@
 }
 
 .html,
-.css {
+.css,
+.cpp {
   width: 100%;
   height: auto;
   max-width: 12rem;
@@ -39,7 +42,9 @@
 .image-container:hover h2,
 .image-container:hover .html-logo,
 .image-container:hover .css-logo,
-.image-container:hover .react-logo {
+.image-container:hover .react-logo,
+.image-container:hover .python-logo,
+.image-container:hover .cpp-logo {
   background-color: #c0aaff;
   transition: background-color 0.8s ease;
 }

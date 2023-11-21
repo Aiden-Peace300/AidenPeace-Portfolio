@@ -1,21 +1,57 @@
 .skill-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
   margin: 0 -0.5rem;
 }
 
 .image-container {
-  flex: 0 0 calc(14.2857% - 1rem);
+  width: calc(14.2857% - 1rem); /* Initially, 7 items per row */
   border: 2px solid white;
   border-radius: 8px;
   overflow: hidden;
   padding: 2rem 2rem 0;
   margin: 0.5rem;
   text-align: center;
-  height: 14rem;
+}
+
+/* Responsive layout for larger screens */
+@media only screen and (width < 1620px) {
+  .image-container {
+    flex: 0 0 calc(16.6667% - 1rem); /* 6 items per row */
+  }
+}
+
+@media only screen and (width < 1495px) {
+  .image-container {
+    flex: 0 0 calc(20% - 1rem); /* 5 items per row */
+  }
+}
+
+@media only screen and (width < 1037px) {
+  .image-container {
+    flex: 0 0 calc(25% - 1rem); /* 4 items per row */
+  }
+}
+
+@media only screen and (width < 700px) {
+  .image-container {
+    flex: 0 0 calc(33.3333% - 1rem); /* 3 items per row */
+  }
+}
+
+@media only screen and (width < 400px) {
+  .image-container {
+    flex: 0 0 calc(50% - 1rem); /* 2 items per row */
+  }
+}
+
+@media only screen and (width < 300px) {
+  .image-container {
+    flex: 0 0 calc(100% - 1rem); /* 1 item per row */
+  }
 }
 
 .js-logo,
@@ -25,8 +61,9 @@
 .cpp,
 .node,
 .express,
-.vim,
-.tailwind {
+.tailwind,
+.docker,
+.pycharm {
   width: 100%;
   height: auto;
   max-width: 15rem;
@@ -35,7 +72,8 @@
 
 .html,
 .css,
-.cpp {
+.cpp,
+.vim {
   width: 100%;
   height: auto;
   max-width: 12rem;

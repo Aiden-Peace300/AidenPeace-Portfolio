@@ -3,7 +3,9 @@ import logo from '../images/aidensLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import Projects from './Projects.tsx';
 import Skills from './Skills.tsx';
+import About from './About.tsx';
 
 export default function App() {
   return (
@@ -73,6 +75,24 @@ export default function App() {
           <div className="skill-content">
             <div className="skills">
               <Skills />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" className="projects">
+        <div className="container">
+          <div className="project-content">
+            <div className="projects">
+              <Projects />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" className="about">
+        <div className="container">
+          <div className="about-content">
+            <div className="about">
+              <About />
             </div>
           </div>
         </div>

@@ -11,7 +11,14 @@ export default function Skill() {
         rel="noopener noreferrer"
         className="image-container">
         <img className="js-logo" src={JsLogo} alt="javascript logo" />
-        <h2 style={{ fontSize: '2rem', textAlign: 'center' }}>ES6</h2>
+        <h2
+          style={{
+            fontSize: '2rem',
+            textAlign: 'center',
+            margin: '.5rem 0 1rem 0',
+          }}>
+          ES6
+        </h2>
       </a>
       <a
         href="https://www.typescriptlang.org/"
@@ -19,7 +26,14 @@ export default function Skill() {
         rel="noopener noreferrer"
         className="image-container">
         <img className="ts-logo" src={TsLogo} alt="TypeScript logo" />
-        <h2 style={{ fontSize: '2rem', textAlign: 'center' }}>TypeScript</h2>
+        <h2
+          style={{
+            fontSize: '2rem',
+            textAlign: 'center',
+            margin: '.5rem 0 1rem 0',
+          }}>
+          TypeScript
+        </h2>
       </a>
     </div>
   );

@@ -9,6 +9,9 @@ import NodeJsLogo from '../skills/nodeJs.png';
 import ExpressLogo from '../skills/express.png';
 import PostgreSQLLogo from '../skills/postgresql.png';
 import GitLogo from '../skills/git.png';
+import NPMLogo from '../skills/npm.png';
+import VueLogo from '../skills/vue.png';
+import DockerLogo from '../skills/docker.png';
 import './Skills.css';
 
 export default function Skill() {
@@ -123,7 +126,7 @@ export default function Skill() {
             textAlign: 'center',
             margin: '1.3rem 0 1rem 0',
           }}>
-          Cpp
+          C++
         </h2>
       </a>
       <a
@@ -137,7 +140,7 @@ export default function Skill() {
           style={{
             fontSize: '1rem',
             textAlign: 'center',
-            margin: '1.3rem 0 1rem 0',
+            margin: '.8rem 0 1rem 0',
           }}>
           Node.js
         </h2>
@@ -157,7 +160,7 @@ export default function Skill() {
           style={{
             fontSize: '1rem',
             textAlign: 'center',
-            margin: '1.5rem 0 1rem 0',
+            margin: '.8rem 0 1rem 0',
           }}>
           PostgreSQL
         </h2>
@@ -173,9 +176,57 @@ export default function Skill() {
           style={{
             fontSize: '1rem',
             textAlign: 'center',
-            margin: '2.5rem 0 1rem 0',
+            margin: '1.5rem 0 1rem 0',
           }}>
           Git
+        </h2>
+      </a>
+      <a
+        href="https://www.npmjs.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="npm-logo react" src={NPMLogo} alt="npm logo" />
+        <h2
+          className="NPMLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '3rem 0 1rem 0',
+          }}>
+          NPM
+        </h2>
+      </a>
+      <a
+        href="https://vuejs.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="vue-logo react" src={VueLogo} alt="vue logo" />
+        <h2
+          className="VueLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '1.5rem 0 1rem 0',
+          }}>
+          Vue.js
+        </h2>
+      </a>
+      <a
+        href="https://www.docker.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="docker-logo react" src={DockerLogo} alt="docker logo" />
+        <h2
+          className="DockerLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '2.5rem 0 1rem 0',
+          }}>
+          Docker
         </h2>
       </a>
       <a

@@ -46,8 +46,17 @@
   height: 5rem;
 }
 
-.postgresql-logo {
+.postgresql-logo,
+.vue-logo {
   margin-top: 1rem;
+}
+
+.npm-logo {
+  margin-top: 3rem;
+}
+
+.docker-logo {
+  margin-top: 2rem;
 }
 
 .image-container:hover,
@@ -60,7 +69,9 @@
 .image-container:hover .node-logo,
 .image-container:hover .express-logo,
 .image-container:hover .postgresql-logo,
-.image-container:hover .git-logo {
+.image-container:hover .git-logo,
+.image-container:hover .npm-logo,
+.image-container:hover .vue-logo {
   background-color: white;
   transition: background-color 0.8s ease;
 }
@@ -75,7 +86,9 @@
 .image-container:hover .NodeLogo,
 .image-container:hover .PostgreSQLLogo,
 .image-container:hover .GitLogo,
-.image-container:hover .ExpressLogo {
+.image-container:hover .ExpressLogo,
+.image-container:hover .NPMLogo,
+.image-container:hover .VueLogo {
   color: rgb(36, 37, 42);
   transition: background-color 0.8s ease;
 }

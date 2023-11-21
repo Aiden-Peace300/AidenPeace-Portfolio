@@ -1,0 +1,133 @@
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  margin: 0 -0.5rem;
+}
+
+.image-container {
+  flex: 0 0 calc(14.2857% - 1rem);
+  border: 2px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 2rem 2rem 0;
+  margin: 0.5rem;
+  text-align: center;
+  height: 14rem;
+}
+
+.js-logo,
+.ts-logo,
+.react,
+.python,
+.cpp,
+.node,
+.express,
+.vim,
+.tailwind {
+  width: 100%;
+  height: auto;
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+.html,
+.css,
+.cpp {
+  width: 100%;
+  height: auto;
+  max-width: 12rem;
+  max-height: 13rem;
+}
+
+.express-logo {
+  margin-top: 1.5rem;
+  width: 7.4rem;
+  height: 4.7rem;
+}
+
+.postgresql-logo,
+.vue-logo {
+  margin-top: 1rem;
+}
+
+.npm-logo {
+  margin-top: 3rem;
+}
+
+.tailwind-logo {
+  margin-top: 1.5rem;
+}
+
+.docker-logo {
+  margin-top: 2rem;
+}
+
+.figma {
+  height: 6rem;
+}
+
+.aws-logo {
+  margin-top: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+
+  /* line-height: 1.2; */
+  margin-bottom: 1rem;
+  padding-top: 5rem;
+  margin-left: auto;
+}
+
+.image-container:hover,
+.image-container:hover h2,
+.image-container:hover .html-logo,
+.image-container:hover .css-logo,
+.image-container:hover .react-logo,
+.image-container:hover .python-logo,
+.image-container:hover .cpp-logo,
+.image-container:hover .node-logo,
+.image-container:hover .express-logo,
+.image-container:hover .postgresql-logo,
+.image-container:hover .git-logo,
+.image-container:hover .npm-logo,
+.image-container:hover .vue-logo,
+.image-container:hover .docker-logo,
+.image-container:hover .vs-logo,
+.image-container:hover .figma-logo,
+.image-container:hover .webpack-logo,
+.image-container:hover .pycharm-logo,
+.image-container:hover .vim-logo,
+.image-container:hover .aws-logo,
+.image-container:hover .tailwind-logo {
+  background-color: white;
+  transition: background-color 0.6s ease;
+}
+
+.image-container:hover .JsLogo,
+.image-container:hover .TsLogo,
+.image-container:hover .HTMLLogo,
+.image-container:hover .CSSLogo,
+.image-container:hover .ReactLogo,
+.image-container:hover .PythonLogo,
+.image-container:hover .CppLogo,
+.image-container:hover .NodeLogo,
+.image-container:hover .PostgreSQLLogo,
+.image-container:hover .GitLogo,
+.image-container:hover .ExpressLogo,
+.image-container:hover .NPMLogo,
+.image-container:hover .VueLogo,
+.image-container:hover .DockerLogo,
+.image-container:hover .VisualStudioLogo,
+.image-container:hover .FigmaLogo,
+.image-container:hover .WebpackLogo,
+.image-container:hover .PycharmLogo,
+.image-container:hover .VimLogo,
+.image-container:hover .AwsLogo,
+.image-container:hover .TailwindLogo {
+  color: rgb(36, 37, 42);
+  transition: background-color 0.6s ease;
+}

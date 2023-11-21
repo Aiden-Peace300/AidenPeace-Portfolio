@@ -28,10 +28,16 @@ button {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #24252a;
+  z-index: 1000; /* Set a high z-index to ensure it stays on top */
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 15px 10%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for separation */
 }
 
 .logo {
@@ -234,10 +240,6 @@ p {
   */
 }
 
-.skill-content h2 {
-  font-size: 5.5rem;
-  line-height: 1.2;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  margin-left: auto;
+.skills {
+  margin-bottom: 10rem;
 }

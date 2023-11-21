@@ -25,7 +25,8 @@
 .cpp,
 .node,
 .express,
-.vim {
+.vim,
+.tailwind {
   width: 100%;
   height: auto;
   max-width: 15rem;
@@ -54,6 +55,10 @@
 
 .npm-logo {
   margin-top: 3rem;
+}
+
+.tailwind-logo {
+  margin-top: 1.5rem;
 }
 
 .docker-logo {
@@ -87,7 +92,8 @@
 .image-container:hover .webpack-logo,
 .image-container:hover .pycharm-logo,
 .image-container:hover .vim-logo,
-.image-container:hover .aws-logo {
+.image-container:hover .aws-logo,
+.image-container:hover .tailwind-logo {
   background-color: white;
   transition: background-color 0.6s ease;
 }
@@ -111,7 +117,8 @@
 .image-container:hover .WebpackLogo,
 .image-container:hover .PycharmLogo,
 .image-container:hover .VimLogo,
-.image-container:hover .AwsLogo {
+.image-container:hover .AwsLogo,
+.image-container:hover .TailwindLogo {
   color: rgb(36, 37, 42);
   transition: background-color 0.6s ease;
 }

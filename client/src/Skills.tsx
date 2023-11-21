@@ -18,6 +18,7 @@ import WebpackLogo from '../skills/webpack.png';
 import PycharmLogo from '../skills/pycharm.png';
 import VimLogo from '../skills/vim.png';
 import AwsLogo from '../skills/aws.png';
+import TailwindLogo from '../skills/tailwind.png';
 import './Skills.css';
 
 export default function Skill() {
@@ -357,6 +358,26 @@ export default function Skill() {
             margin: '2.5rem 0 1rem 0',
           }}>
           Webpack
+        </h2>
+      </a>
+      <a
+        href="https://tailwindcss.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img
+          className="tailwind-logo tailwind"
+          src={TailwindLogo}
+          alt="Tailwind logo"
+        />
+        <h2
+          className="TailwindLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '2.5rem 0 1rem 0',
+          }}>
+          Tailwind
         </h2>
       </a>
     </div>

@@ -1,7 +1,7 @@
 .skill-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   height: 100%;
   margin: 0 -0.5rem;
@@ -9,20 +9,22 @@
 
 .image-container {
   flex: 0 0 calc(14.2857% - 1rem);
-  border: 2px solid #4a4a4a;
+  border: 2px solid white;
   border-radius: 8px;
   overflow: hidden;
   padding: 2rem 2rem 0;
   margin: 0.5rem;
   text-align: center;
-  height: 11.5rem;
+  height: 14rem;
 }
 
 .js-logo,
 .ts-logo,
 .react,
 .python,
-.cpp {
+.cpp,
+.node,
+.express {
   width: 100%;
   height: auto;
   max-width: 15rem;
@@ -38,13 +40,42 @@
   max-height: 13rem;
 }
 
+.express-logo {
+  margin-top: 1.5rem;
+  width: 7.4rem;
+  height: 5rem;
+}
+
+.postgresql-logo {
+  margin-top: 1rem;
+}
+
 .image-container:hover,
 .image-container:hover h2,
 .image-container:hover .html-logo,
 .image-container:hover .css-logo,
 .image-container:hover .react-logo,
 .image-container:hover .python-logo,
-.image-container:hover .cpp-logo {
-  background-color: #c0aaff;
+.image-container:hover .cpp-logo,
+.image-container:hover .node-logo,
+.image-container:hover .express-logo,
+.image-container:hover .postgresql-logo,
+.image-container:hover .git-logo {
+  background-color: white;
+  transition: background-color 0.8s ease;
+}
+
+.image-container:hover .JsLogo,
+.image-container:hover .TsLogo,
+.image-container:hover .HTMLLogo,
+.image-container:hover .CSSLogo,
+.image-container:hover .ReactLogo,
+.image-container:hover .PythonLogo,
+.image-container:hover .CppLogo,
+.image-container:hover .NodeLogo,
+.image-container:hover .PostgreSQLLogo,
+.image-container:hover .GitLogo,
+.image-container:hover .ExpressLogo {
+  color: rgb(36, 37, 42);
   transition: background-color 0.8s ease;
 }

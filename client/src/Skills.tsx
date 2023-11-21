@@ -5,6 +5,10 @@ import CSSLogo from '../skills/css.png';
 import ReactLogo from '../skills/react.png';
 import PythonLogo from '../skills/python.png';
 import CppLogo from '../skills/cpp.png';
+import NodeJsLogo from '../skills/nodeJs.png';
+import ExpressLogo from '../skills/express.png';
+import PostgreSQLLogo from '../skills/postgresql.png';
+import GitLogo from '../skills/git.png';
 import './Skills.css';
 
 export default function Skill() {
@@ -17,6 +21,7 @@ export default function Skill() {
         className="image-container">
         <img className="js-logo" src={JsLogo} alt="javascript logo" />
         <h2
+          className="JsLogo"
           style={{
             fontSize: '1rem',
             textAlign: 'center',
@@ -32,6 +37,7 @@ export default function Skill() {
         className="image-container">
         <img className="ts-logo" src={TsLogo} alt="TypeScript logo" />
         <h2
+          className="TsLogo"
           style={{
             fontSize: '1rem',
             textAlign: 'center',
@@ -47,6 +53,7 @@ export default function Skill() {
         className="image-container">
         <img className="html-logo html" src={HTMLLogo} alt="html logo" />
         <h2
+          className="HTMLLogo"
           style={{
             fontSize: '1rem',
             textAlign: 'center',
@@ -62,6 +69,7 @@ export default function Skill() {
         className="image-container">
         <img className="css-logo css" src={CSSLogo} alt="css logo" />
         <h2
+          className="CSSLogo"
           style={{
             fontSize: '1rem',
             textAlign: 'center',
@@ -77,6 +85,7 @@ export default function Skill() {
         className="image-container">
         <img className="react-logo react" src={ReactLogo} alt="react logo" />
         <h2
+          className="ReactLogo"
           style={{
             fontSize: '1rem',
             textAlign: 'center',
@@ -92,6 +101,7 @@ export default function Skill() {
         className="image-container">
         <img className="python-logo react" src={PythonLogo} alt="python logo" />
         <h2
+          className="PythonLogo"
           style={{
             fontSize: '1rem',
             textAlign: 'center',
@@ -107,12 +117,85 @@ export default function Skill() {
         className="image-container">
         <img className="cpp-logo react" src={CppLogo} alt="cpp logo" />
         <h2
+          className="CppLogo"
           style={{
             fontSize: '1rem',
             textAlign: 'center',
             margin: '1.3rem 0 1rem 0',
           }}>
           Cpp
+        </h2>
+      </a>
+      <a
+        href="https://nodejs.org/en"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="node-logo react" src={NodeJsLogo} alt="node logo" />
+        <h2
+          className="NodeLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '1.3rem 0 1rem 0',
+          }}>
+          Node.js
+        </h2>
+      </a>
+      <a
+        href="https://www.postgresql.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img
+          className="postgresql-logo react"
+          src={PostgreSQLLogo}
+          alt="postgresql logo"
+        />
+        <h2
+          className="PostgreSQLLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '1.5rem 0 1rem 0',
+          }}>
+          PostgreSQL
+        </h2>
+      </a>
+      <a
+        href="https://git-scm.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img className="git-logo react" src={GitLogo} alt="git logo" />
+        <h2
+          className="GitLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '2.5rem 0 1rem 0',
+          }}>
+          Git
+        </h2>
+      </a>
+      <a
+        href="https://expressjs.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="image-container">
+        <img
+          className="express-logo react"
+          src={ExpressLogo}
+          alt="express logo"
+        />
+        <h2
+          className="ExpressLogo"
+          style={{
+            fontSize: '1rem',
+            textAlign: 'center',
+            margin: '2.5rem 0 1rem 0',
+          }}>
+          Express
         </h2>
       </a>
     </div>

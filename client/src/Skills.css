@@ -73,6 +73,15 @@
   margin-top: 1.5rem;
 }
 
+h1 {
+  font-size: 4rem;
+
+  /* line-height: 1.2; */
+  margin-bottom: 1rem;
+  padding-top: 5rem;
+  margin-left: auto;
+}
+
 .image-container:hover,
 .image-container:hover h2,
 .image-container:hover .html-logo,

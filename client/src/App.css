@@ -18,7 +18,7 @@ body {
 
 li,
 a,
-button {
+.cta {
   /* stylelint-disable-next-line font-family-name-quotes */
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -63,6 +63,10 @@ header {
 }
 
 button {
+  cursor: pointer;
+}
+
+.contact-button {
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
@@ -71,7 +75,26 @@ button {
   transition: all 0.3 ease 0s;
 }
 
-button:hover {
+.resume-button {
+  margin-left: 1rem;
+  margin-bottom: -1rem;
+  padding: 1.3rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  background-color: white;
+  color: #24252a;
+  font-weight: bold;
+}
+
+.contact-row {
+  display: flex;
+  justify-content: start;
+}
+
+.contact-button:hover,
+.resume-button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 

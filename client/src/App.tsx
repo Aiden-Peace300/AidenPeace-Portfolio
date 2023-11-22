@@ -7,32 +7,51 @@ import Projects from './Projects.tsx';
 import Skills from './Skills.tsx';
 import About from './About.tsx';
 import Pdf from '../Documents/Document.pdf';
+import { useState } from 'react';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { IconClicked } from './IconClicked.tsx';
 
 export default function App() {
+  const [mobileNavVisible, setMobileNavVisible] = useState(false);
+
+  const toggleMobileNav = () => {
+    setMobileNavVisible(!mobileNavVisible);
+  };
+
   return (
     <div>
       <header>
         <img className="logo" src={logo} alt="logo" />
-        <nav>
-          <ul className="nav__links">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-          </ul>
-        </nav>
-        <a className="cta" href="#contact">
-          <button className="contact-button">Contact</button>
-        </a>
+        <div className="nav__links">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+            </ul>
+          </nav>
+          <a className="cta" href="#contact">
+            <button className="contact-button">Contact</button>
+          </a>
+        </div>
+        <div className="bars-icon" onClick={toggleMobileNav}>
+          <FontAwesomeIcon icon={faBars} />
+        </div>
       </header>
+      {mobileNavVisible && (
+        <div className="list-container">
+          <IconClicked />
+        </div>
+      )}
       <section id="home" className="meet">
         <div className="container">
           <div className="content">

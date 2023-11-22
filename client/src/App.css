@@ -153,9 +153,12 @@ button {
 
 @media only screen and (width < 940px) {
   .photoOfAiden {
-    height: 13rem; /* change me to your needs */
-    width: 13rem;
+    height: 15rem; /* change me to your needs */
+    width: 15rem;
     background-position: 0%;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
   }
 
   .content div {
@@ -164,6 +167,10 @@ button {
 
   .meet-text .position {
     font-size: 2em;
+  }
+
+  #home {
+    margin-top: 0;
   }
 }
 
@@ -183,6 +190,16 @@ button {
   .meet .container {
     padding: 0;
     margin: auto 0;
+  }
+}
+
+@media only screen and (width < 700px) {
+  .bars-icon {
+    display: block;
+  }
+
+  .nav__links {
+    display: none;
   }
 }
 
@@ -325,4 +342,41 @@ p {
 
 .skills {
   margin-bottom: 10rem;
+}
+
+.bars-icon {
+  /* display: none; */
+  padding-right: 1.8rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.flex-container {
+  margin-top: 3.7rem;
+  display: row;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+}
+
+.icon-text {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #24252a;
+  font-size: 1.3rem;
+  flex-basis: 100%;
+  text-decoration: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+.icon-text:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.icon-text:focus {
+  color: red;
+  text-decoration: underline;
 }

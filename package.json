@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Aiden-Peace300.github.io/AidenPeace-Portfolio",
+  "homepage": "http://Aiden-Peace300.github.io/AidenPeacePortfolio/",
   "name": "final-project-template",
   "version": "2.0.0",
   "private": true,
@@ -8,7 +8,6 @@
   "scripts": {
     "start": "NODE_ENV=production npm start --prefix server",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "npm run build --prefix client",
     "db:import": "sh database/import.sh",
     "dev:client": "npm run dev --prefix client",

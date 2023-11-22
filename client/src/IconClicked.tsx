@@ -26,6 +26,12 @@ export function IconClicked() {
               About
             </a>
           </li>
+          <hr />
+          <li>
+            <a className="cta icon-text" href="#contact">
+              <button className="contact-button">Contact</button>
+            </a>
+          </li>
         </ul>
       </nav>
     </>

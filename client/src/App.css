@@ -27,6 +27,10 @@ a,
   text-decoration: none;
 }
 
+.cta {
+  display: inline-block;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -47,6 +51,8 @@ header {
 
 .nav__links {
   list-style: none;
+  display: flex;
+  align-items: center;
 }
 
 .nav__links li {
@@ -134,6 +140,7 @@ button {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 0;
   }
 
   .meet-text h1 {
@@ -156,7 +163,7 @@ button {
     height: 15rem; /* change me to your needs */
     width: 15rem;
     background-position: 0%;
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-right: 5rem;
     margin-left: 5rem;
   }
@@ -193,13 +200,20 @@ button {
   }
 }
 
-@media only screen and (width < 700px) {
-  .bars-icon {
-    display: block;
-  }
+.bars-icon {
+  display: none;
+  padding-right: 1.8rem;
+  font-size: 1.5rem;
+  color: white;
+}
 
+@media only screen and (width < 700px) {
   .nav__links {
     display: none;
+  }
+
+  .bars-icon {
+    display: block;
   }
 }
 
@@ -271,6 +285,7 @@ a .fa-github {
   position: relative;
   color: white;
   margin-bottom: 20px;
+  margin-top: 4rem;
 }
 
 .meet-text h2 {
@@ -344,18 +359,14 @@ p {
   margin-bottom: 10rem;
 }
 
-.bars-icon {
-  /* display: none; */
-  padding-right: 1.8rem;
-  font-size: 1.5rem;
-  color: white;
-}
-
 .flex-container {
   margin-top: 3.7rem;
   display: row;
   flex-wrap: wrap;
   background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 980; /* Set a high z-index to ensure it stays on top */
+  width: 100%;
 }
 
 .icon-text {
@@ -369,14 +380,13 @@ p {
   text-decoration: none;
   background-color: white;
   font-weight: bold;
+  margin-right: 2rem;
 }
 
 .icon-text:hover {
-  color: red;
-  text-decoration: underline;
+  color: #0088a9;
 }
 
 .icon-text:focus {
-  color: red;
-  text-decoration: underline;
+  color: #0088a9;
 }

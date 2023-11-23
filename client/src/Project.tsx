@@ -35,9 +35,9 @@ const Project: React.FC<ProjectProps> = ({
         <img className="img" src={photo} alt="Project" />
       </a>
       <div style={{ marginLeft: '1rem' }}>
-        <h2 style={{ marginLeft: '1rem', color: 'white', fontSize: '3rem' }}>
-          {Title}
-        </h2>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <h2 className="title">{Title}</h2>
+        </a>
         {detailsArray.map((paragraph, index) => (
           <p
             key={index}

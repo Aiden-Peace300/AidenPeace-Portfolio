@@ -37,7 +37,7 @@ export default function Projects() {
   };
 
   return (
-    <div>
+    <div style={{ marginBottom: '3rem' }}>
       <h1>Projects</h1>
       <Project
         photo={project1.photo}

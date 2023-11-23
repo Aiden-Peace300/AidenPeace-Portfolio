@@ -3,7 +3,21 @@ import Project from './Project.tsx';
 
 export default function Projects() {
   const project1 = {
-    photo: '../images/filmCritic.png',
+    photo: [
+      '../images/filmCritic/filmCritic_SignInAndOut.png',
+      '../images/filmCritic/filmCritic_Feed.png',
+      '../images/filmCritic/filmCritic_FilmDetails.png',
+      '../images/filmCritic/filmCritic_recommendations.png',
+      '../images/filmCritic/filmCritic_recommendations.png',
+      '../images/filmCritic/filmCritic_FilmDetails.png',
+      '../images/filmCritic/filmCritic_FilmDetailsTrailers.png',
+      '../images/filmCritic/filmCritic_FilmDetailsLinks.png',
+      '../images/filmCritic/filmCritic_FilmDetailsLinks.png',
+      '../images/filmCritic/filmCritic_Rating.png',
+      '../images/filmCritic/filmCritic_Profile.png',
+      '../images/filmCritic/filmCritic_Profile2.png',
+      '../images/filmCritic/filmCritic_Profile3.png',
+    ],
     link: 'http://filmcritic-dev.us-west-1.elasticbeanstalk.com/',
     title: 'FilmCritic',
     projectDetails: `
@@ -19,7 +33,14 @@ export default function Projects() {
   };
 
   const project2 = {
-    photo: '../images/KeywordRelief.png',
+    photo: [
+      '../images/keywordRelief/KeywordRelief.png',
+      '../images/keywordRelief/loading.png',
+      '../images/keywordRelief/selectVocabWords.png',
+      '../images/keywordRelief/keywordList.png',
+      '../images/keywordRelief/deletePopup.png',
+      '../images/keywordRelief/keywordListAfterdelete.png',
+    ],
     link: 'https://aiden-peace300.github.io/KeyWord-Relief-AJAX/',
     title: 'Keyword Relief',
     projectDetails: `
@@ -40,7 +61,7 @@ export default function Projects() {
     <div style={{ marginBottom: '3rem' }}>
       <h1>Projects</h1>
       <Project
-        photo={project1.photo}
+        photos={project1.photo}
         link={project1.link}
         Title={project1.title}
         projectDetails={project1.projectDetails}
@@ -51,7 +72,7 @@ export default function Projects() {
       <br />
       <br />
       <Project
-        photo={project2.photo}
+        photos={project2.photo}
         link={project2.link}
         Title={project2.title}
         projectDetails={project2.projectDetails}

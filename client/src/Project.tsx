@@ -1,9 +1,10 @@
 import './Project.css';
+import Carousel from './Carousel';
 
 type FlexDirection = 'row' | 'column' | 'row-reverse' | 'column-reverse';
 
 type ProjectProps = {
-  photo: string;
+  photos: any;
   link: string;
   Title: string;
   projectDetails: string;
@@ -11,7 +12,7 @@ type ProjectProps = {
 };
 
 const Project: React.FC<ProjectProps> = ({
-  photo,
+  photos,
   link,
   Title,
   projectDetails,
@@ -31,9 +32,7 @@ const Project: React.FC<ProjectProps> = ({
 
   return (
     <div style={{ display: 'flex', flexDirection: validatedFlexDirection }}>
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        <img className="img" src={photo} alt="Project" />
-      </a>
+      <Carousel images={photos} link={link} />
       <div style={{ marginLeft: '1rem' }}>
         <a href={link} target="_blank" rel="noopener noreferrer">
           <h2 className="title">{Title}</h2>

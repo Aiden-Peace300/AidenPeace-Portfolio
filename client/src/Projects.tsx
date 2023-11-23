@@ -2,7 +2,7 @@ import './Projects.css';
 import Project from './Project.tsx';
 
 export default function Projects() {
-  const projectData = {
+  const project1 = {
     photo: '../images/filmCritic.png',
     link: 'http://filmcritic-dev.us-west-1.elasticbeanstalk.com/',
     title: 'FilmCritic',
@@ -15,16 +15,47 @@ export default function Projects() {
     
     Excited to share this cinematic adventure with you! Explore the project on GitHub and join the FilmCritic community in celebrating the joy of movies together. 🎥🍿
     `,
+    flexDirection: 'row',
+  };
+
+  const project2 = {
+    photo: '../images/KeywordRelief.png',
+    link: 'https://aiden-peace300.github.io/KeyWord-Relief-AJAX/',
+    title: 'Keyword Relief',
+    projectDetails: `
+    Welcome to Keyword Relief, your friendly companion in the quest for that elusive word! Ever find yourself stuck, trying to recall that perfect term? Keyword Relief has your back.
+
+    This application, powered by the wonders of AI, is designed to rescue you from the word-finding dilemma. Imagine having a tool that not only understands your language needs but also makes the journey delightful.
+    
+    Under the hood, Keyword Relief employs asynchronous magic to fetch data from a REST API, bringing you personalized information with the help of OpenAI. JavaScript event listeners and custom functions—that not only make page transitions seamless but also create personalized vocabulary lists just for you.
+    
+    And let's talk about user experience—because we believe it should be a joy. Our attention to detail in DOM manipulation ensures that every interaction is smooth and efficient. Keyword Relief is not just an app; it's your linguistic sidekick, enhancing your language journey in the most friendly and intuitive way.
+    
+    Curious? Click the image on the right and it will lead you to keyword Relief live site. Say goodbye to word-related headaches and hello to the ease of Keyword Relief. Happy word hunting! 🚀📚
+    `,
+    flexDirection: 'row-reverse',
   };
 
   return (
     <div>
       <h1>Projects</h1>
       <Project
-        photo={projectData.photo}
-        link={projectData.link}
-        Title={projectData.title}
-        projectDetails={projectData.projectDetails}
+        photo={project1.photo}
+        link={project1.link}
+        Title={project1.title}
+        projectDetails={project1.projectDetails}
+        flexDirection={project1.flexDirection}
+      />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Project
+        photo={project2.photo}
+        link={project2.link}
+        Title={project2.title}
+        projectDetails={project2.projectDetails}
+        flexDirection={project2.flexDirection}
       />
     </div>
   );

@@ -1,9 +1,11 @@
 .project-container {
   display: flex;
+  flex-direction: row;
 }
 
 .img {
   width: 35rem;
+  width: 45rem;
   padding: 1rem;
   border: 5px solid white;
   border-radius: 1rem;

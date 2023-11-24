@@ -10,6 +10,7 @@ import Pdf from '../Documents/Document.pdf';
 import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IconClicked } from './IconClicked.tsx';
+import Qualifications from './Qualifications.tsx';
 
 export default function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
@@ -36,6 +37,9 @@ export default function App() {
               </li>
               <li>
                 <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#qualifications">Qualifications</a>
               </li>
             </ul>
           </nav>
@@ -118,6 +122,15 @@ export default function App() {
           <div className="about-content">
             <div className="about">
               <About />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="qualifications" className="qualifications">
+        <div className="container">
+          <div className="qualifications-content">
+            <div className="qualifications">
+              <Qualifications />
             </div>
           </div>
         </div>

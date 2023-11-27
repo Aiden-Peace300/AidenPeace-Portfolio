@@ -2,6 +2,9 @@
 import './Qualifications.css';
 import Project from './Project.tsx';
 import Pdf from '../Documents/LearningFuze_Certificate_of_Completion.pdf';
+import CSDegree from '../Documents/computerScience.pdf';
+import NasaProposal from '../Documents/Final PDR Draft.pdf';
+import NasaAwards from '../Documents/NASA AWARDS.pdf';
 
 export default function About() {
   const LFZ = {
@@ -59,6 +62,27 @@ export default function About() {
             projectDetails={saddlebackCollege.projectDetails}
             flexDirection={'column'}
           />
+          <a
+            className="resume"
+            href={CSDegree}
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="resume-button">View CS Degree</button>
+          </a>
+          <a
+            className="resume"
+            href={NasaProposal}
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="resume-button">View NASA Propsal</button>
+          </a>
+          <a
+            className="resume"
+            href={NasaAwards}
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="resume-button">View NASA Awards</button>
+          </a>
         </div>
         <div className="vertical-line"></div>
         <div className="project">

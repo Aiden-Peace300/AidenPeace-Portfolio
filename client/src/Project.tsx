@@ -33,7 +33,7 @@ const Project: React.FC<ProjectProps> = ({
   return (
     <div style={{ display: 'flex', flexDirection: validatedFlexDirection }}>
       <Carousel images={photos} link={link} />
-      <div style={{ marginLeft: '1rem' }}>
+      <div>
         <a
           href={link ? link : undefined}
           target="_blank"

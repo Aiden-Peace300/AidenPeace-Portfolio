@@ -5,7 +5,7 @@ type FlexDirection = 'row' | 'column' | 'row-reverse' | 'column-reverse';
 
 type ProjectProps = {
   photos: any;
-  link: string;
+  link: string | null;
   Title: string;
   projectDetails: string;
   flexDirection: FlexDirection | string; // Allow any string for flexibility
@@ -34,7 +34,10 @@ const Project: React.FC<ProjectProps> = ({
     <div style={{ display: 'flex', flexDirection: validatedFlexDirection }}>
       <Carousel images={photos} link={link} />
       <div style={{ marginLeft: '1rem' }}>
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <a
+          href={link ? link : undefined}
+          target="_blank"
+          rel="noopener noreferrer">
           <h2 className="title">{Title}</h2>
         </a>
         {detailsArray.map((paragraph, index) => (

@@ -1,0 +1,28 @@
+/* Qualifications.css */
+.qualifications-container {
+  display: flex;
+  position: relative; /* Add position: relative to make the .diagonal-line position correctly */
+}
+
+.Project {
+  flex-basis: 50%;
+}
+
+.vertical-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: white;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.project {
+  padding: 3rem;
+}
+
+.qualifications {
+  margin-bottom: 10rem;
+}

@@ -1,14 +1,16 @@
 // Qualifications.tsx
 import './Qualifications.css';
 import Project from './Project.tsx';
+import Pdf from '../Documents/LearningFuze_Certificate_of_Completion.pdf';
 
 export default function About() {
   const LFZ = {
     photos: [
       '../images/LFZ/LearningFuze_Group_Picture.jpg',
       '../images/LFZ/LearningFuze_Certificate_of_Completion.png',
+      '../images/LFZ/LFZ_hackathon.png',
     ],
-    link: 'http://filmcritic-dev.us-west-1.elasticbeanstalk.com/',
+    link: 'https://learningfuze.com/',
     title: 'Learning Fuze',
     projectDetails: `
     Welcome to FilmCritic, where the magic of movies meets the warmth of community! I'm thrilled to showcase this project, a social media app designed for film enthusiasts seeking more than just recommendations. FilmCritic goes beyond the ordinary, leveraging the power of AI to enhance your cinematic journey.
@@ -24,11 +26,15 @@ export default function About() {
 
   const saddlebackCollege = {
     photos: [
-      '../images/LFZ/LearningFuze_Group_Picture.jpg',
-      '../images/LFZ/LearningFuze_Certificate_of_Completion.png',
+      '../images/saddlebackCollege/computerScience.png',
+      '../images/saddlebackCollege/NPWEE_TEAM21.png',
+      '../images/saddlebackCollege/IMG_0704.jpg',
+      '../images/saddlebackCollege/IMG_0705.jpg',
+      '../images/saddlebackCollege/MCA_TEAM40.png',
+      '../images/saddlebackCollege/pictureOfMe.jpg',
     ],
-    link: 'http://filmcritic-dev.us-west-1.elasticbeanstalk.com/',
-    title: 'Learning Fuze',
+    link: 'https://www.saddleback.edu/',
+    title: 'Saddleback College',
     projectDetails: `
     Welcome to FilmCritic, where the magic of movies meets the warmth of community! I'm thrilled to showcase this project, a social media app designed for film enthusiasts seeking more than just recommendations. FilmCritic goes beyond the ordinary, leveraging the power of AI to enhance your cinematic journey.
     
@@ -47,22 +53,29 @@ export default function About() {
       <div className="qualifications-container">
         <div className="project">
           <Project
-            photos={LFZ.photos}
-            link={null}
-            Title={LFZ.title}
-            projectDetails={LFZ.projectDetails}
+            photos={saddlebackCollege.photos}
+            link={saddlebackCollege.link}
+            Title={saddlebackCollege.title}
+            projectDetails={saddlebackCollege.projectDetails}
             flexDirection={'column'}
           />
         </div>
         <div className="vertical-line"></div>
         <div className="project">
           <Project
-            photos={saddlebackCollege.photos}
-            link={null}
-            Title={saddlebackCollege.title}
-            projectDetails={saddlebackCollege.projectDetails}
+            photos={LFZ.photos}
+            link={LFZ.link}
+            Title={LFZ.title}
+            projectDetails={LFZ.projectDetails}
             flexDirection={'column'}
           />
+          <a
+            className="resume"
+            href={Pdf}
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="resume-button">View Certification</button>
+          </a>
         </div>
       </div>
     </div>

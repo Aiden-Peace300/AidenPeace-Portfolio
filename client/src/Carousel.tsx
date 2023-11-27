@@ -1,7 +1,13 @@
 import { useState, useEffect } from 'react';
 import { FaCircle } from 'react-icons/fa';
-
-const Carousel = ({ images, link }) => {
+interface CarouselProps {
+  images: string[];
+  link: string | null;
+  title?: string | null;
+  projectDetails?: string | null;
+  flexDirection?: string | null;
+}
+const Carousel: React.FC<CarouselProps> = ({ images, link }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -18,7 +24,10 @@ const Carousel = ({ images, link }) => {
 
   return (
     <div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
-      <a href={link} target="_blank" rel="noopener noreferrer">
+      <a
+        href={link ? link : undefined}
+        target="_blank"
+        rel="noopener noreferrer">
         <div
           style={{
             display: 'flex',

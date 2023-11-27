@@ -21,6 +21,7 @@
 
 .project {
   padding: 3rem;
+  flex-basis: 50%;
 }
 
 .qualifications {

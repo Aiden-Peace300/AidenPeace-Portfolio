@@ -5,7 +5,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import Projects from './Projects.tsx';
 import Skills from './Skills.tsx';
-// import About from './About.tsx';
+import About from './About.tsx';
 import Pdf from '../Documents/Document.pdf';
 import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -68,7 +68,7 @@ export default function App() {
                   Hi, I'm Aiden Peace. A passionate Front-end React Developer
                   based in Lake Forest, California. 📍
                 </p>
-                <span className="contact-row">
+                <div className="contact-row">
                   <a
                     href="https://www.linkedin.com/in/aiden-peace-025918211/"
                     target="_blank"
@@ -94,7 +94,7 @@ export default function App() {
                     rel="noopener noreferrer">
                     <button className="resume-button">View Resume</button>
                   </a>
-                </span>
+                </div>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function App() {
           </div>
         </div>
       </section>
-      {/* <section id="about" className="about">
+      <section id="about" className="about">
         <div className="container">
           <div className="about-content">
             <div className="about">
@@ -126,7 +126,7 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       <section id="qualifications" className="qualifications">
         <div className="container">
           <div className="qualifications-content">

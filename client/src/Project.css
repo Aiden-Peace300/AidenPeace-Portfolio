@@ -27,8 +27,34 @@
   color: #0088a9;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column-mobile {
+  display: flex;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 @media only screen and (width < 620px) {
   .project-container {
+    flex-direction: column;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .column-mobile {
+    display: flex;
     flex-direction: column;
   }
 

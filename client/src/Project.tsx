@@ -16,22 +16,25 @@ const Project: React.FC<ProjectProps> = ({
   link,
   Title,
   projectDetails,
-  // flexDirection,
+  flexDirection,
 }) => {
-  // // Validating the flexDirection value
-  // const validatedFlexDirection: FlexDirection = [
-  //   'row',
-  //   'column',
-  //   'row-reverse',
-  //   'column-reverse',
-  // ].includes(flexDirection as FlexDirection)
-  //   ? (flexDirection as FlexDirection)
-  //   : 'row';
+  // Validating the flexDirection value
+  const validatedFlexDirection: FlexDirection = [
+    'row',
+    'column',
+    'row-reverse',
+    'column-reverse',
+  ].includes(flexDirection as FlexDirection)
+    ? (flexDirection as FlexDirection)
+    : 'row';
 
   const detailsArray = projectDetails.split('\n');
 
+  // Dynamically determine the class based on the validatedFlexDirection
+  const containerClassName = `${validatedFlexDirection}`;
+
   return (
-    <div className="project-container" style={{ display: 'flex' }}>
+    <div className={containerClassName + ' column-mobile'}>
       <Carousel images={photos} link={link} />
       <div>
         <a

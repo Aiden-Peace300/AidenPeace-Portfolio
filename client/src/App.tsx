@@ -126,8 +126,8 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section>
-      <section id="qualifications" className="qualifications">
+      </section> */}
+      {/* <section id="qualifications" className="qualifications">
         <div className="container">
           <div className="qualifications-content">
             <div className="qualifications">
@@ -135,8 +135,8 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section>
-      <section id="footer" className="footer">
+      </section> */}
+      {/* <section id="footer" className="footer">
         <div className="container">
           <div className="footer-content">
             <div className="footer">

@@ -277,7 +277,7 @@ export default function Skill() {
             style={{
               fontSize: '1rem',
               textAlign: 'center',
-              margin: '2.3rem 0 1rem 0',
+              margin: '1.5rem 0 1rem 0',
             }}>
             AWS
           </h2>
@@ -304,7 +304,7 @@ export default function Skill() {
           rel="noopener noreferrer"
           className="image-container">
           <img
-            className="pycharm-logo figma"
+            className="pycharm-logo react"
             src={PycharmLogo}
             alt="pycharm logo"
           />
@@ -313,7 +313,7 @@ export default function Skill() {
             style={{
               fontSize: '1rem',
               textAlign: 'center',
-              margin: '2.5rem 0 1rem 0',
+              margin: '1.5rem 0 1rem 0',
             }}>
             Pycharm
           </h2>
@@ -323,7 +323,7 @@ export default function Skill() {
           target="_blank"
           rel="noopener noreferrer"
           className="image-container">
-          <img className="vim-logo vim" src={VimLogo} alt="vim logo" />
+          <img className="vim-logo react" src={VimLogo} alt="vim logo" />
           <h2
             className="VimLogo"
             style={{
@@ -345,7 +345,7 @@ export default function Skill() {
             style={{
               fontSize: '1rem',
               textAlign: 'center',
-              margin: '2.5rem 0 1rem 0',
+              margin: '1.5rem 0 1rem 0',
             }}>
             Figma
           </h2>
@@ -356,7 +356,7 @@ export default function Skill() {
           rel="noopener noreferrer"
           className="image-container">
           <img
-            className="webpack-logo figma"
+            className="webpack-logo react"
             src={WebpackLogo}
             alt="webpack logo"
           />
@@ -365,7 +365,7 @@ export default function Skill() {
             style={{
               fontSize: '1rem',
               textAlign: 'center',
-              margin: '2.5rem 0 1rem 0',
+              margin: '.9rem 0 1rem 0',
             }}>
             Webpack
           </h2>

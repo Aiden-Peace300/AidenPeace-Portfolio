@@ -4,12 +4,7 @@ export default function About() {
   return (
     <div>
       <h1>Aiden's Journey</h1>
-      <div
-        style={{
-          marginBottom: '15rem',
-          display: 'flex',
-          flexDirection: 'row-reverse',
-        }}>
+      <div className="about-container">
         <div>
           <p
             style={{

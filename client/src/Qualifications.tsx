@@ -64,27 +64,29 @@ export default function Qualifications() {
             projectDetails={saddlebackCollege.projectDetails}
             flexDirection={'column'}
           />
-          <a
-            className="resume"
-            href={CSDegree}
-            target="_blank"
-            rel="noopener noreferrer">
-            <button className="resume-button">View CS Degree</button>
-          </a>
-          <a
-            className="resume"
-            href={NasaProposal}
-            target="_blank"
-            rel="noopener noreferrer">
-            <button className="resume-button">View NASA Propsal</button>
-          </a>
-          <a
-            className="resume"
-            href={NasaAwards}
-            target="_blank"
-            rel="noopener noreferrer">
-            <button className="resume-button">View NASA Awards</button>
-          </a>
+          <div className="pfd-links">
+            <a
+              className="resume"
+              href={CSDegree}
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="resume-button">View CS Degree</button>
+            </a>
+            <a
+              className="resume"
+              href={NasaProposal}
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="resume-button">View NASA Propsal</button>
+            </a>
+            <a
+              className="resume"
+              href={NasaAwards}
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="resume-button">View NASA Awards</button>
+            </a>
+          </div>
         </div>
         <div className="vertical-line"></div>
         <div className="project">
@@ -95,13 +97,15 @@ export default function Qualifications() {
             projectDetails={LFZ.projectDetails}
             flexDirection={'column'}
           />
-          <a
-            className="resume"
-            href={Pdf}
-            target="_blank"
-            rel="noopener noreferrer">
-            <button className="resume-button">View Certification</button>
-          </a>
+          <div className="pfd-links">
+            <a
+              className="resume"
+              href={Pdf}
+              target="_blank"
+              rel="noopener noreferrer">
+              <button className="resume-button">View Certification</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

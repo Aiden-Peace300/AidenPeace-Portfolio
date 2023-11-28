@@ -8,7 +8,7 @@ type ProjectProps = {
   link: string | null;
   Title: string;
   projectDetails: string;
-  flexDirection: FlexDirection | string; // Allow any string for flexibility
+  flexDirection: FlexDirection | string;
 };
 
 const Project: React.FC<ProjectProps> = ({
@@ -30,8 +30,11 @@ const Project: React.FC<ProjectProps> = ({
 
   const detailsArray = projectDetails.split('\n');
 
+  // Dynamically determine the class based on the validatedFlexDirection
+  const containerClassName = `${validatedFlexDirection}`;
+
   return (
-    <div style={{ display: 'flex', flexDirection: validatedFlexDirection }}>
+    <div className={containerClassName + ' column-mobile'}>
       <Carousel images={photos} link={link} />
       <div>
         <a
@@ -46,11 +49,9 @@ const Project: React.FC<ProjectProps> = ({
             style={{
               color: 'white',
               fontSize: '1rem',
-              // fontWeight: 'bold',
               marginBottom: '0.5rem',
               marginLeft: '1rem',
               marginRight: '1rem',
-              // fontFamily: 'Andale Mono',
             }}>
             {paragraph}
           </p>

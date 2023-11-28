@@ -68,7 +68,7 @@ export default function App() {
                   Hi, I'm Aiden Peace. A passionate Front-end React Developer
                   based in Lake Forest, California. 📍
                 </p>
-                <span className="contact-row">
+                <div className="contact-row">
                   <a
                     href="https://www.linkedin.com/in/aiden-peace-025918211/"
                     target="_blank"
@@ -94,7 +94,7 @@ export default function App() {
                     rel="noopener noreferrer">
                     <button className="resume-button">View Resume</button>
                   </a>
-                </span>
+                </div>
               </div>
             </div>
           </div>

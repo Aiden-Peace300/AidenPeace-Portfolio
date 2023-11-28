@@ -149,6 +149,7 @@ button {
 
   .skills {
     margin-top: 5rem;
+    margin-bottom: 0;
   }
 }
 
@@ -198,6 +199,30 @@ button {
     padding: 0;
     margin: auto 0;
   }
+
+  .projects .container {
+    padding: 0 1rem;
+    margin: auto 0;
+  }
+
+  .about .container {
+    padding: 0 1rem;
+    margin: auto 0;
+  }
+
+  .qualifications .container {
+    padding: 0 1rem;
+    margin: auto 0;
+  }
+
+  .footer .container {
+    padding: 0 1rem;
+    margin: auto 0;
+  }
+
+  .content {
+    padding-bottom: 0; /* Maintain 1:1 aspect ratio */
+  }
 }
 
 .bars-icon {
@@ -223,7 +248,7 @@ button {
     flex-direction: column;
     gap: 3rem;
     height: 0;
-    padding-bottom: 100%; /* Maintain 1:1 aspect ratio */
+    padding-bottom: 35%; /* Maintain 1:1 aspect ratio */
     position: relative;
     text-align: center;
     overflow: hidden;
@@ -280,7 +305,6 @@ a .fa-github {
 .meet-main {
   align-items: center;
   display: flex;
-  flex-direction: row-reverse;
   gap: 2rem;
   justify-content: center;
   position: relative;

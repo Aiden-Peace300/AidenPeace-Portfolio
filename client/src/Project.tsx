@@ -45,11 +45,12 @@ const Project: React.FC<ProjectProps> = ({
             key={index}
             style={{
               color: 'white',
-              fontSize: '.9rem',
-              fontWeight: 'bold',
+              fontSize: '1rem',
+              // fontWeight: 'bold',
               marginBottom: '0.5rem',
               marginLeft: '1rem',
               marginRight: '1rem',
+              // fontFamily: 'Andale Mono',
             }}>
             {paragraph}
           </p>

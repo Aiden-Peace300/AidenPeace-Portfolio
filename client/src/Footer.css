@@ -1,9 +1,17 @@
 .footer-container {
-  text-align: center; /* Align the horizontal line in the center if needed */
+  text-align: center;
 }
 
 .horizontal-line {
-  height: 2px; /* Adjust the height of the line as needed */
-  background-color: white; /* Set the color of the line */
-  margin: 10px 0; /* Adjust the margin as needed */
+  height: 2px;
+  background-color: white;
+}
+
+.follow-me-text,
+.text {
+  color: white;
+}
+
+.text {
+  margin: 2rem 0;
 }

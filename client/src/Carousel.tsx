@@ -46,11 +46,11 @@ const Carousel: React.FC<CarouselProps> = ({ images, link }) => {
       </a>
       <div
         style={{
-          justifyContent: 'flex-end',
-          transform: 'translateX(-50%)',
+          justifyContent: 'center',
           display: 'flex',
           marginTop: '1rem',
-          marginLeft: '13.8rem',
+          marginBottom: '1rem',
+          textAlign: 'center',
         }}>
         {images.map((_, index) => (
           <FaCircle

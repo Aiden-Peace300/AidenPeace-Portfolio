@@ -33,7 +33,7 @@ const Project: React.FC<ProjectProps> = ({
   return (
     <div style={{ display: 'flex', flexDirection: validatedFlexDirection }}>
       <Carousel images={photos} link={link} />
-      <div style={{ marginLeft: '1rem' }}>
+      <div>
         <a
           href={link ? link : undefined}
           target="_blank"
@@ -45,11 +45,12 @@ const Project: React.FC<ProjectProps> = ({
             key={index}
             style={{
               color: 'white',
-              fontSize: '.9rem',
-              fontWeight: 'bold',
+              fontSize: '1rem',
+              // fontWeight: 'bold',
               marginBottom: '0.5rem',
               marginLeft: '1rem',
               marginRight: '1rem',
+              // fontFamily: 'Andale Mono',
             }}>
             {paragraph}
           </p>

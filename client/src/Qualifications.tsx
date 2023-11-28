@@ -2,8 +2,11 @@
 import './Qualifications.css';
 import Project from './Project.tsx';
 import Pdf from '../Documents/LearningFuze_Certificate_of_Completion.pdf';
+import CSDegree from '../Documents/computerScience.pdf';
+import NasaProposal from '../Documents/Final PDR Draft.pdf';
+import NasaAwards from '../Documents/NASA AWARDS.pdf';
 
-export default function About() {
+export default function Qualifications() {
   const LFZ = {
     photos: [
       '../images/LFZ/LearningFuze_Group_Picture.jpg',
@@ -27,11 +30,13 @@ export default function About() {
   const saddlebackCollege = {
     photos: [
       '../images/saddlebackCollege/computerScience.png',
+      '../images/saddlebackCollege/pictureOfMe.jpg',
+      '../images/saddlebackCollege/Nasa MCA.png',
+      '../images/saddlebackCollege/MCA_TEAM40.png',
+      '../images/saddlebackCollege/IMG_0705.jpg',
+      '../images/saddlebackCollege/Nasa NPWEE.png',
       '../images/saddlebackCollege/NPWEE_TEAM21.png',
       '../images/saddlebackCollege/IMG_0704.jpg',
-      '../images/saddlebackCollege/IMG_0705.jpg',
-      '../images/saddlebackCollege/MCA_TEAM40.png',
-      '../images/saddlebackCollege/pictureOfMe.jpg',
     ],
     link: 'https://www.saddleback.edu/',
     title: 'Saddleback College',
@@ -59,6 +64,27 @@ export default function About() {
             projectDetails={saddlebackCollege.projectDetails}
             flexDirection={'column'}
           />
+          <a
+            className="resume"
+            href={CSDegree}
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="resume-button">View CS Degree</button>
+          </a>
+          <a
+            className="resume"
+            href={NasaProposal}
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="resume-button">View NASA Propsal</button>
+          </a>
+          <a
+            className="resume"
+            href={NasaAwards}
+            target="_blank"
+            rel="noopener noreferrer">
+            <button className="resume-button">View NASA Awards</button>
+          </a>
         </div>
         <div className="vertical-line"></div>
         <div className="project">

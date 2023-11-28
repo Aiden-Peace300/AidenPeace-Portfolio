@@ -6,7 +6,7 @@ import CSDegree from '../Documents/computerScience.pdf';
 import NasaProposal from '../Documents/Final PDR Draft.pdf';
 import NasaAwards from '../Documents/NASA AWARDS.pdf';
 
-export default function About() {
+export default function Qualifications() {
   const LFZ = {
     photos: [
       '../images/LFZ/LearningFuze_Group_Picture.jpg',
@@ -30,11 +30,13 @@ export default function About() {
   const saddlebackCollege = {
     photos: [
       '../images/saddlebackCollege/computerScience.png',
+      '../images/saddlebackCollege/pictureOfMe.jpg',
+      '../images/saddlebackCollege/Nasa MCA.png',
+      '../images/saddlebackCollege/MCA_TEAM40.png',
+      '../images/saddlebackCollege/IMG_0705.jpg',
+      '../images/saddlebackCollege/Nasa NPWEE.png',
       '../images/saddlebackCollege/NPWEE_TEAM21.png',
       '../images/saddlebackCollege/IMG_0704.jpg',
-      '../images/saddlebackCollege/IMG_0705.jpg',
-      '../images/saddlebackCollege/MCA_TEAM40.png',
-      '../images/saddlebackCollege/pictureOfMe.jpg',
     ],
     link: 'https://www.saddleback.edu/',
     title: 'Saddleback College',

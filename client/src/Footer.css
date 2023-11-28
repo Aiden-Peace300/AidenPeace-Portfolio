@@ -1,0 +1,9 @@
+.footer-container {
+  text-align: center; /* Align the horizontal line in the center if needed */
+}
+
+.horizontal-line {
+  height: 2px; /* Adjust the height of the line as needed */
+  background-color: white; /* Set the color of the line */
+  margin: 10px 0; /* Adjust the margin as needed */
+}

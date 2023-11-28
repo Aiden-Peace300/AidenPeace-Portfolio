@@ -11,6 +11,7 @@ import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IconClicked } from './IconClicked.tsx';
 import Qualifications from './Qualifications.tsx';
+import Footer from './Footer.tsx';
 
 export default function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
@@ -131,6 +132,15 @@ export default function App() {
           <div className="qualifications-content">
             <div className="qualifications">
               <Qualifications />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer" className="footer">
+        <div className="container">
+          <div className="footer-content">
+            <div className="footer">
+              <Footer />
             </div>
           </div>
         </div>

@@ -208,6 +208,11 @@ button {
     padding: 0 1rem;
     margin: auto 0;
   }
+
+  .footer .container {
+    padding: 0 1rem;
+    margin: auto 0;
+  }
 }
 
 .bars-icon {

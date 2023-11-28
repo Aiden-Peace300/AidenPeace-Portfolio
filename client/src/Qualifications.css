@@ -2,6 +2,8 @@
 .qualifications-container {
   display: flex;
   position: relative; /* Add position: relative to make the .diagonal-line position correctly */
+  margin-bottom: 10rem;
+  flex-direction: row;
 }
 
 .Project {
@@ -24,6 +26,29 @@
   flex-basis: 50%;
 }
 
-.qualifications {
-  margin-bottom: 10rem;
+@media only screen and (width < 620px) {
+  .qualifications-container {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .project {
+    padding: 0;
+    padding-bottom: 10rem;
+    flex-basis: 50%;
+  }
+
+  .pfd-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resume {
+    margin: 1rem 0;
+  }
+
+  .vertical-line {
+    display: none;
+  }
 }

@@ -200,7 +200,12 @@ button {
   }
 
   .projects .container {
-    padding: 0 2rem;
+    padding: 0 1rem;
+    margin: auto 0;
+  }
+
+  .qualifications .container {
+    padding: 0 1rem;
     margin: auto 0;
   }
 }

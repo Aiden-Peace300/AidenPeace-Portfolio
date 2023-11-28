@@ -10,7 +10,7 @@ import Pdf from '../Documents/Document.pdf';
 import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IconClicked } from './IconClicked.tsx';
-// import Qualifications from './Qualifications.tsx';
+import Qualifications from './Qualifications.tsx';
 // import Footer from './Footer.tsx';
 
 export default function App() {
@@ -127,7 +127,7 @@ export default function App() {
           </div>
         </div>
       </section> */}
-      {/* <section id="qualifications" className="qualifications">
+      <section id="qualifications" className="qualifications">
         <div className="container">
           <div className="qualifications-content">
             <div className="qualifications">
@@ -135,7 +135,7 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* <section id="footer" className="footer">
         <div className="container">
           <div className="footer-content">

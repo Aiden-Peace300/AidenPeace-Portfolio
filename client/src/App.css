@@ -227,7 +227,6 @@ button {
 
 .bars-icon {
   display: none;
-  padding-right: 1.8rem;
   font-size: 1.5rem;
   color: white;
 }
@@ -405,7 +404,6 @@ p {
   text-decoration: none;
   background-color: white;
   font-weight: bold;
-  margin-right: 2rem;
 }
 
 .icon-text:hover {
@@ -414,4 +412,10 @@ p {
 
 .icon-text:focus {
   color: #0088a9;
+}
+
+@media only screen and (width < 600px) {
+  .skills {
+    margin-bottom: 4rem;
+  }
 }

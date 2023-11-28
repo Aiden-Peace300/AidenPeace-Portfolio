@@ -42,7 +42,7 @@ h1 {
   justify-content: center;
   position: relative;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 10rem;
   margin-top: 4rem;
 }
 
@@ -67,5 +67,6 @@ h1 {
     align-items: center;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
   }
 }

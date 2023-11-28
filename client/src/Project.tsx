@@ -8,7 +8,7 @@ type ProjectProps = {
   link: string | null;
   Title: string;
   projectDetails: string;
-  flexDirection: FlexDirection | string; // Allow any string for flexibility
+  flexDirection: FlexDirection | string;
 };
 
 const Project: React.FC<ProjectProps> = ({
@@ -16,22 +16,22 @@ const Project: React.FC<ProjectProps> = ({
   link,
   Title,
   projectDetails,
-  flexDirection,
+  // flexDirection,
 }) => {
-  // Validating the flexDirection value
-  const validatedFlexDirection: FlexDirection = [
-    'row',
-    'column',
-    'row-reverse',
-    'column-reverse',
-  ].includes(flexDirection as FlexDirection)
-    ? (flexDirection as FlexDirection)
-    : 'row';
+  // // Validating the flexDirection value
+  // const validatedFlexDirection: FlexDirection = [
+  //   'row',
+  //   'column',
+  //   'row-reverse',
+  //   'column-reverse',
+  // ].includes(flexDirection as FlexDirection)
+  //   ? (flexDirection as FlexDirection)
+  //   : 'row';
 
   const detailsArray = projectDetails.split('\n');
 
   return (
-    <div style={{ display: 'flex', flexDirection: validatedFlexDirection }}>
+    <div className="project-container" style={{ display: 'flex' }}>
       <Carousel images={photos} link={link} />
       <div>
         <a
@@ -46,11 +46,9 @@ const Project: React.FC<ProjectProps> = ({
             style={{
               color: 'white',
               fontSize: '1rem',
-              // fontWeight: 'bold',
               marginBottom: '0.5rem',
               marginLeft: '1rem',
               marginRight: '1rem',
-              // fontFamily: 'Andale Mono',
             }}>
             {paragraph}
           </p>

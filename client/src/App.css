@@ -198,6 +198,11 @@ button {
     padding: 0;
     margin: auto 0;
   }
+
+  .projects .container {
+    padding: 0 2rem;
+    margin: auto 0;
+  }
 }
 
 .bars-icon {

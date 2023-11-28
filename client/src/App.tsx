@@ -3,7 +3,7 @@ import logo from '../images/aidensLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-// import Projects from './Projects.tsx';
+import Projects from './Projects.tsx';
 import Skills from './Skills.tsx';
 // import About from './About.tsx';
 import Pdf from '../Documents/Document.pdf';
@@ -109,7 +109,7 @@ export default function App() {
           </div>
         </div>
       </section>
-      {/* <section id="projects" className="projects">
+      <section id="projects" className="projects">
         <div className="container">
           <div className="project-content">
             <div className="projects">
@@ -118,7 +118,7 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section id="about" className="about">
+      {/* <section id="about" className="about">
         <div className="container">
           <div className="about-content">
             <div className="about">

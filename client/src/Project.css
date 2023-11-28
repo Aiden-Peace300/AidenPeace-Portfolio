@@ -26,3 +26,22 @@
 .title:hover {
   color: #0088a9;
 }
+
+@media only screen and (width < 620px) {
+  .project-container {
+    flex-direction: column;
+  }
+
+  .img {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+  }
+
+  .title {
+    margin-left: 0;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+}

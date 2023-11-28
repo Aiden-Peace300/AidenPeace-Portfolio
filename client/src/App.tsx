@@ -3,15 +3,15 @@ import logo from '../images/aidensLogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import Projects from './Projects.tsx';
+// import Projects from './Projects.tsx';
 import Skills from './Skills.tsx';
-import About from './About.tsx';
+// import About from './About.tsx';
 import Pdf from '../Documents/Document.pdf';
 import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IconClicked } from './IconClicked.tsx';
-import Qualifications from './Qualifications.tsx';
-import Footer from './Footer.tsx';
+// import Qualifications from './Qualifications.tsx';
+// import Footer from './Footer.tsx';
 
 export default function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
@@ -109,7 +109,7 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section id="projects" className="projects">
+      {/* <section id="projects" className="projects">
         <div className="container">
           <div className="project-content">
             <div className="projects">
@@ -144,7 +144,7 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

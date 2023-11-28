@@ -280,7 +280,6 @@ a .fa-github {
 .meet-main {
   align-items: center;
   display: flex;
-  flex-direction: row-reverse;
   gap: 2rem;
   justify-content: center;
   position: relative;

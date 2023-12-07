@@ -418,6 +418,6 @@ p {
 @media only screen and (width < 600px) {
   .skills {
     margin-bottom: 4rem;
-    padding-top: 6rem;
+    padding-top: 6.6rem;
   }
 }

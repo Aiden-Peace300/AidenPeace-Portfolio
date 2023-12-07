@@ -1,17 +1,29 @@
-// Qualifications.tsx
 import './Qualifications.css';
 import Project from './Project.tsx';
-import Pdf from '../Documents/LearningFuze_Certificate_of_Completion.pdf';
-import CSDegree from '../Documents/computerScience.pdf';
-import NasaProposal from '../Documents/Final PDR Draft.pdf';
-import NasaAwards from '../Documents/NASA AWARDS.pdf';
+import Pdf from './documents/LearningFuze_Certificate_of_Completion.pdf';
+import CSDegree from './documents/computerScience.pdf';
+import NasaProposal from './documents/Final PDR Draft.pdf';
+import NasaAwards from './documents/NASA AWARDS.pdf';
+
+import LFZPhoto1 from './images/LFZ/LearningFuze_Group_Picture.jpg';
+import LFZPhoto2 from './images/LFZ/LearningFuze_Certificate_of_Completion.png';
+import LFZPhoto3 from './images/LFZ/LFZ_hackathon.png';
+
+import SaddlebackPhoto1 from './images/saddlebackCollege/computerScience.png';
+import SaddlebackPhoto2 from './images/saddlebackCollege/pictureOfMe.jpg';
+import SaddlebackPhoto3 from './images/saddlebackCollege/Nasa MCA.png';
+import SaddlebackPhoto4 from './images/saddlebackCollege/MCA_TEAM40.png';
+import SaddlebackPhoto5 from './images/saddlebackCollege/IMG_0705.jpg';
+import SaddlebackPhoto6 from './images/saddlebackCollege/Nasa NPWEE.png';
+import SaddlebackPhoto7 from './images/saddlebackCollege/NPWEE_TEAM21.png';
+import SaddlebackPhoto8 from './images/saddlebackCollege/IMG_0704.jpg';
 
 export default function Qualifications() {
   const LFZ = {
     photos: [
-      '../images/LFZ/LearningFuze_Group_Picture.jpg',
-      '../images/LFZ/LearningFuze_Certificate_of_Completion.png',
-      '../images/LFZ/LFZ_hackathon.png',
+      LFZPhoto1,
+      LFZPhoto2,
+      LFZPhoto3,
     ],
     link: 'https://learningfuze.com/',
     title: 'Learning Fuze',
@@ -29,14 +41,14 @@ export default function Qualifications() {
 
   const saddlebackCollege = {
     photos: [
-      '../images/saddlebackCollege/computerScience.png',
-      '../images/saddlebackCollege/pictureOfMe.jpg',
-      '../images/saddlebackCollege/Nasa MCA.png',
-      '../images/saddlebackCollege/MCA_TEAM40.png',
-      '../images/saddlebackCollege/IMG_0705.jpg',
-      '../images/saddlebackCollege/Nasa NPWEE.png',
-      '../images/saddlebackCollege/NPWEE_TEAM21.png',
-      '../images/saddlebackCollege/IMG_0704.jpg',
+      SaddlebackPhoto1,
+      SaddlebackPhoto2,
+      SaddlebackPhoto3,
+      SaddlebackPhoto4,
+      SaddlebackPhoto5,
+      SaddlebackPhoto6,
+      SaddlebackPhoto7,
+      SaddlebackPhoto8,
     ],
     link: 'https://www.saddleback.edu/',
     title: 'Saddleback College',

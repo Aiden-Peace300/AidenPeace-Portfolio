@@ -74,9 +74,9 @@ export default function App() {
             <div className="meet-main">
               <div className="photoOfAiden"></div>
               <div className="meet-text">
-                <h2 className="position">Front-End React Developer</h2>
+                <h2 className="position">Full-Stack React Developer</h2>
                 <p>
-                  Hi, I'm Aiden Peace. A passionate Front-end React Developer
+                  Hi, I'm Aiden Peace. A passionate Full-Stack React Developer
                   based in Lake Forest, California. 📍
                 </p>
                 <div className="contact-row">

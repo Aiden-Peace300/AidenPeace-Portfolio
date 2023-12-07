@@ -28,13 +28,16 @@ export default function Qualifications() {
     link: 'https://learningfuze.com/',
     title: 'Learning Fuze',
     projectDetails: `
-    Welcome to FilmCritic, where the magic of movies meets the warmth of community! I'm thrilled to showcase this project, a social media app designed for film enthusiasts seeking more than just recommendations. FilmCritic goes beyond the ordinary, leveraging the power of AI to enhance your cinematic journey.
+
+    Embarking on the next phase of my coding journey, I eagerly enrolled in LearningFuze, the #1 coding bootcamp in Southern California, right after graduating from Saddleback. Over a dynamic 14-week Accelerated Web Development Program, I dedicated more than 800 hours to immersive, hands-on programming in a simulated, agile work environment that closely mirrored real-world scenarios. Collaborating with fellow developers in three intense hackathons, we harnessed our collective creativity and technical prowess to bring diverse applications to life, honing not just our coding skills but also our ability to thrive under pressure.
+
+    LearningFuze immersed me in the expansive world of full-stack development, where I mastered an array of cutting-edge technologies such as JavaScript, HTML, CSS, TypeScript, React, Node, and Express. The program's intensity, demanding daily commitments of 10-12 hours, not only fueled my passion but also equipped me with practical skills and a comprehensive understanding of the development process, preparing me for the challenges of the ever-evolving tech landscape.
     
-    Crafted with a user-centric approach, the interface is a blend of React with TypeScript and Express, ensuring a seamless and engaging experience. Security is a top priority, with PostgreSQL providing robust data storage. JWT-based user authentication and error middleware have been seamlessly integrated to prioritize safety without compromising on user experience.
+    During my enriching LearningFuze tenure, I successfully brought two impactful projects to fruition. FilmCritic, a groundbreaking social media app powered by AI, not only showcased my proficiency in React with TypeScript and Express but also highlighted my expertise in leveraging PostgreSQL for robust data storage and implementing JWT-based user authentication. This allowed users seamless control over their profiles, watchlists, posts, and user-generated content, solidifying my grasp on the intricacies of CRUD operations in a production environment.
     
-    FilmCritic is more than just a platform; it's a space for users to shape their movie experience. With a range of CRUD operations, you have the freedom to create and personalize profiles, curate watchlists, and share your thoughts through posts and user-generated content. Complete control over edits and deletions empowers users to tailor their FilmCritic journey.
+    In parallel, the development of KeyWord Relief showcased my innovation in crafting an application that employed AI to assist users in finding that elusive word. The integration of asynchronous data retrieval from a REST API and the utilization of OpenAI for personalized information demonstrated my commitment to delivering unique solutions. Through the implementation of JavaScript event listeners and custom functions, I ensured seamless page transitions and personalized vocabulary list creation, enriching the overall user experience.
     
-    Excited to share this cinematic adventure with you! Explore the project on GitHub and join the FilmCritic community in celebrating the joy of movies together. 🎥🍿
+    LearningFuze transformed me, equipping me with technical prowess and confidence for complex challenges. It sharpened my skills, instilling a collaborative spirit and an insatiable curiosity. My commitment to excellence in the dynamic web development field is unwavering.
     `,
     flexDirection: 'row',
   };
@@ -53,13 +56,17 @@ export default function Qualifications() {
     link: 'https://www.saddleback.edu/',
     title: 'Saddleback College',
     projectDetails: `
-    Welcome to FilmCritic, where the magic of movies meets the warmth of community! I'm thrilled to showcase this project, a social media app designed for film enthusiasts seeking more than just recommendations. FilmCritic goes beyond the ordinary, leveraging the power of AI to enhance your cinematic journey.
+    Embarking on my educational adventure in August 2019, I proudly graduated in 2023 with an Associate of Science in Computer Science from Saddleback College. The road to success was challenging but incredibly rewarding, and I wouldn't have had it any other way.
+
+    Balancing a full-time job as an Inventory Control Specialist at Kris Tech Wire and later as a ROE Manager at Rebel off Road, I learned the art of time management and perseverance. This unique blend of work and study allowed me to apply theoretical knowledge from the classroom to real-world situations, enriching my educational experience.
     
-    Crafted with a user-centric approach, the interface is a blend of React with TypeScript and Express, ensuring a seamless and engaging experience. Security is a top priority, with PostgreSQL providing robust data storage. JWT-based user authentication and error middleware have been seamlessly integrated to prioritize safety without compromising on user experience.
+    What set my Saddleback journey apart was my active involvement in NASA undergraduate programs, where I served as a Lead System Engineer and Scientist in the NASA NPWEE. This role involved spearheading the NASA Proposal Writing and Evaluation Experience Academy, where I honed crucial skills in effective communication, proposal crafting, and proposal evaluation. It was an incredible honor to contribute to NASA's mission and collaborate with diverse teams.
     
-    FilmCritic is more than just a platform; it's a space for users to shape their movie experience. With a range of CRUD operations, you have the freedom to create and personalize profiles, curate watchlists, and share your thoughts through posts and user-generated content. Complete control over edits and deletions empowers users to tailor their FilmCritic journey.
+    Additionally, I took on the role of Lead Engineer in the NASA L’SPACE Mission Concept Academy, where I earned badges in Siemens NX CAD, Organizational Charts, Budgeting, Requirements, Functional Analysis, and Heat Transfer. As the Lead Software Engineer, I played a pivotal role in creating a Preliminary Design Review for a mission aimed at exploring cost-effective methods to extract drinkable water from beneath the moon's crust. Overseeing the risks and requirements of engineering and computer science subsystems was both challenging and immensely gratifying.
     
-    Excited to share this cinematic adventure with you! Explore the project on GitHub and join the FilmCritic community in celebrating the joy of movies together. 🎥🍿
+    Amidst these enriching experiences, I delved into coursework covering essential topics such as Data Structures, Discrete Math, Python, Java, Calculus 2, and more. These courses not only deepened my understanding of computer science but also equipped me with the skills needed to thrive in a dynamic and evolving field.
+    
+    Though my Saddleback College journey took a bit longer than planned, the invaluable experiences, practical skills gained, and the network I built have laid a solid foundation for my future endeavors. I am proud to carry the lessons learned and the knowledge acquired into the next chapter of my professional and academic life. Saddleback College has been more than an institution of learning for me; it's been a platform for growth, exploration, and success.
     `,
     flexDirection: 'row',
   };

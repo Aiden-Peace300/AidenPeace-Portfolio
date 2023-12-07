@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AidenPeace-Portfolio/static/css/main.67a156d0.css",
+    "main.css": "/AidenPeace-Portfolio/static/css/main.0de52238.css",
     "main.js": "/AidenPeace-Portfolio/static/js/main.03acc372.js",
     "static/media/Final PDR Draft.pdf": "/AidenPeace-Portfolio/static/media/Final PDR Draft.ba2249ee4a6727d59ea1.pdf",
     "static/media/NASA AWARDS.pdf": "/AidenPeace-Portfolio/static/media/NASA AWARDS.a4a47837b7c0a064077e.pdf",
@@ -46,11 +46,11 @@
     "static/media/css.png": "/AidenPeace-Portfolio/static/media/css.cee0e8eb6d5c1d4ec98b.png",
     "static/media/pycharm.png": "/AidenPeace-Portfolio/static/media/pycharm.835309d452c3896baac0.png",
     "index.html": "/AidenPeace-Portfolio/index.html",
-    "main.67a156d0.css.map": "/AidenPeace-Portfolio/static/css/main.67a156d0.css.map",
+    "main.0de52238.css.map": "/AidenPeace-Portfolio/static/css/main.0de52238.css.map",
     "main.03acc372.js.map": "/AidenPeace-Portfolio/static/js/main.03acc372.js.map"
   },
   "entrypoints": [
-    "static/css/main.67a156d0.css",
+    "static/css/main.0de52238.css",
     "static/js/main.03acc372.js"
   ]
 }

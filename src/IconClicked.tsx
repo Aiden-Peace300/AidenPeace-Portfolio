@@ -15,7 +15,7 @@ export function IconClicked() {
   return (
     <>
       <nav>
-        <ul className="flex-container">
+        <ul style={{listStyleType: 'none'}}className="flex-container">
           <li>
             <a href="#" className="icon-text">
               Home
@@ -42,7 +42,7 @@ export function IconClicked() {
           <hr />
           <li>
             <a className="cta icon-text" href="#contact" onClick={toggleEmailPopup}>
-              <button className="contact-button">Contact</button>
+              <button style={{color: 'black'}} className="contact-button">Contact</button>
             </a>
           </li>
         </ul>

@@ -12,12 +12,22 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { IconClicked } from './IconClicked.tsx';
 import Qualifications from './Qualifications.tsx';
 import Footer from './Footer.tsx';
+import Contact from './Contact.tsx';
 
 export default function App() {
   const [mobileNavVisible, setMobileNavVisible] = useState(false);
+  const [emailPopupVisible, setEmailPopupVisible] = useState(false);
 
   const toggleMobileNav = () => {
     setMobileNavVisible(!mobileNavVisible);
+  };
+
+  const toggleEmailPopup = () => {
+    setEmailPopupVisible(!emailPopupVisible);
+  };
+
+  const handleCloseContactPopup = () => {
+    setEmailPopupVisible(false);
   };
 
   return (
@@ -44,7 +54,7 @@ export default function App() {
               </li>
             </ul>
           </nav>
-          <a className="cta" href="#contact">
+          <a className="cta" href="#contact" onClick={toggleEmailPopup}>
             <button className="contact-button">Contact</button>
           </a>
         </div>
@@ -57,6 +67,7 @@ export default function App() {
           <IconClicked />
         </div>
       )}
+      {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       <section id="home" className="meet">
         <div className="container">
           <div className="content">

@@ -1,4 +1,17 @@
+import { useState } from "react";
+import Contact from './Contact.tsx';
+
 export function IconClicked() {
+
+  const [emailPopupVisible, setEmailPopupVisible] = useState(false);
+
+  const toggleEmailPopup = () => {
+    setEmailPopupVisible(!emailPopupVisible);
+  };
+
+  const handleCloseContactPopup = () => {
+    setEmailPopupVisible(false);
+  };
   return (
     <>
       <nav>
@@ -28,11 +41,12 @@ export function IconClicked() {
           </li>
           <hr />
           <li>
-            <a className="cta icon-text" href="#contact">
+            <a className="cta icon-text" href="#contact" onClick={toggleEmailPopup}>
               <button className="contact-button">Contact</button>
             </a>
           </li>
         </ul>
+        {emailPopupVisible && <Contact onClose={handleCloseContactPopup} />}
       </nav>
     </>
   );

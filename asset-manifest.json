@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AidenPeace-Portfolio/static/css/main.0de52238.css",
-    "main.js": "/AidenPeace-Portfolio/static/js/main.b85df08b.js",
+    "main.css": "/AidenPeace-Portfolio/static/css/main.bdba3148.css",
+    "main.js": "/AidenPeace-Portfolio/static/js/main.3820822c.js",
     "static/media/Final PDR Draft.pdf": "/AidenPeace-Portfolio/static/media/Final PDR Draft.ba2249ee4a6727d59ea1.pdf",
     "static/media/NASA AWARDS.pdf": "/AidenPeace-Portfolio/static/media/NASA AWARDS.a4a47837b7c0a064077e.pdf",
     "static/media/LearningFuze_Group_Picture.jpg": "/AidenPeace-Portfolio/static/media/LearningFuze_Group_Picture.ce6455fa7c494b8e081a.jpg",
@@ -46,11 +46,11 @@
     "static/media/css.png": "/AidenPeace-Portfolio/static/media/css.cee0e8eb6d5c1d4ec98b.png",
     "static/media/pycharm.png": "/AidenPeace-Portfolio/static/media/pycharm.835309d452c3896baac0.png",
     "index.html": "/AidenPeace-Portfolio/index.html",
-    "main.0de52238.css.map": "/AidenPeace-Portfolio/static/css/main.0de52238.css.map",
-    "main.b85df08b.js.map": "/AidenPeace-Portfolio/static/js/main.b85df08b.js.map"
+    "main.bdba3148.css.map": "/AidenPeace-Portfolio/static/css/main.bdba3148.css.map",
+    "main.3820822c.js.map": "/AidenPeace-Portfolio/static/js/main.3820822c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0de52238.css",
-    "static/js/main.b85df08b.js"
+    "static/css/main.bdba3148.css",
+    "static/js/main.3820822c.js"
   ]
 }

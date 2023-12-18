@@ -9,6 +9,7 @@ import About from './About.tsx';
 import Pdf from './documents/Document.pdf';
 import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { IoClose } from 'react-icons/io5';
 import { IconClicked } from './IconClicked.tsx';
 import Qualifications from './Qualifications.tsx';
 import Footer from './Footer.tsx';
@@ -59,7 +60,7 @@ export default function App() {
           </a>
         </div>
         <div className="bars-icon" onClick={toggleMobileNav}>
-          <FontAwesomeIcon icon={faBars} />
+          {mobileNavVisible ? <IoClose /> : <FontAwesomeIcon icon={faBars} />}
         </div>
       </header>
       {mobileNavVisible && (
@@ -72,7 +73,12 @@ export default function App() {
         <div className="container">
           <div className="content">
             <div className="meet-main">
+              <a
+              href="https://github.com/Aiden-Peace300"
+              target="_blank"
+              rel="noopener noreferrer">
               <div className="photoOfAiden"></div>
+              </a>
               <div className="meet-text">
                 <h2 className="position">Full-Stack React Developer</h2>
                 <p>

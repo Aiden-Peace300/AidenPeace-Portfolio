@@ -15,7 +15,7 @@ export function IconClicked() {
   return (
     <>
       <nav>
-        <ul style={{listStyleType: 'none'}}className="flex-container">
+        <ul style={{listStyleType: 'none'}} className="flex-container">
           <li>
             <a href="#" className="icon-text">
               Home

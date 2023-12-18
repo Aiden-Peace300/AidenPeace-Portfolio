@@ -9,6 +9,7 @@ import About from './About.tsx';
 import Pdf from './documents/Document.pdf';
 import { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { IoClose } from 'react-icons/io5';
 import { IconClicked } from './IconClicked.tsx';
 import Qualifications from './Qualifications.tsx';
 import Footer from './Footer.tsx';
@@ -59,7 +60,7 @@ export default function App() {
           </a>
         </div>
         <div className="bars-icon" onClick={toggleMobileNav}>
-          <FontAwesomeIcon icon={faBars} />
+          {mobileNavVisible ? <IoClose /> : <FontAwesomeIcon icon={faBars} />}
         </div>
       </header>
       {mobileNavVisible && (

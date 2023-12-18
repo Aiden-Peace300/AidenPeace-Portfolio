@@ -132,6 +132,9 @@ button {
   height: 27rem; /* change me to your needs */
   position: relative;
   transition: all 1s ease-in-out;
+}
+
+.photoOfAiden_container {
   width: 35rem;
 }
 
@@ -162,12 +165,13 @@ button {
 
 @media only screen and (width < 940px) {
   .photoOfAiden {
-    height: 15rem; /* change me to your needs */
+    height: 15rem; 
+  }
+
+  .photoOfAiden_container {
     width: 15rem;
     background-position: 0%;
-    margin-top: 1rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    margin-top: 2rem;
   }
 
   .content div {

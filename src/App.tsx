@@ -73,12 +73,14 @@ export default function App() {
         <div className="container">
           <div className="content">
             <div className="meet-main">
-              <a
-              href="https://github.com/Aiden-Peace300"
-              target="_blank"
-              rel="noopener noreferrer">
-              <div className="photoOfAiden"></div>
-              </a>
+              <div className="photoOfAiden_container">
+                <a
+                href="https://github.com/Aiden-Peace300"
+                target="_blank"
+                rel="noopener noreferrer">
+                <div className="photoOfAiden"></div>
+                </a>
+              </div>
               <div className="meet-text">
                 <h2 className="position">Full-Stack React Developer</h2>
                 <p>

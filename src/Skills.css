@@ -202,3 +202,26 @@ h1 {
     text-align: center;
   }
 }
+
+@media only screen and (width < 380px) {
+  .image-container-postgresql {
+    padding: 1rem 1.5rem 0;
+  }
+
+  .image-container-npm {
+    padding: 1.5rem 2rem 0;
+  }
+
+  .image-container-docker { 
+    padding: 1.2rem 2rem 0;
+  }
+
+  .image-container-vs {
+    padding: 1.2rem 2rem 0;
+  }
+
+  .image-container-figma {
+    padding: 1rem 2rem 0;
+  }
+  
+}

@@ -162,7 +162,7 @@ export default function Skill() {
           href="https://www.postgresql.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image-container image-container-postgresql">
           <img
             className="postgresql-logo react"
             src={PostgreSQLLogo}
@@ -171,7 +171,7 @@ export default function Skill() {
           <h2
             className="PostgreSQLLogo"
             style={{
-              fontSize: '1rem',
+              fontSize: '.9rem',
               textAlign: 'center',
               margin: '.8rem 0 1rem 0',
             }}>
@@ -198,14 +198,14 @@ export default function Skill() {
           href="https://www.npmjs.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image-container image-container-npm">
           <img className="npm-logo react" src={NPMLogo} alt="npm logo" />
           <h2
             className="NPMLogo"
             style={{
               fontSize: '1rem',
               textAlign: 'center',
-              margin: '3rem 0 1rem 0',
+              margin: '2rem 0 1rem 0',
             }}>
             NPM
           </h2>
@@ -230,7 +230,7 @@ export default function Skill() {
           href="https://www.docker.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image-container image-container-docker">
           <img
             className="docker-logo react"
             src={DockerLogo}
@@ -286,7 +286,7 @@ export default function Skill() {
           href="https://code.visualstudio.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image-container image-container-vs">
           <img className="vs-logo react" src={VisualStudioLogo} alt="vs logo" />
           <h2
             className="VisualStudioLogo"
@@ -338,7 +338,7 @@ export default function Skill() {
           href="https://www.figma.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image-container image-container-figma">
           <img className="figma-logo figma" src={FigmaLogo} alt="figma logo" />
           <h2
             className="FigmaLogo"

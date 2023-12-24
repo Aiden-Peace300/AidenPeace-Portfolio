@@ -113,7 +113,7 @@
 }
 
 .express_logo {
-  margin-top: 1.5rem;
+  margin-top: 1.3rem;
   width: 100%;
   height: auto;
 }
@@ -124,7 +124,7 @@
 }
 
 .npm_logo {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .tailwind_logo {
@@ -140,10 +140,9 @@
   margin-top: 1.5rem;
 }
 
-h1 {
-  font-size: 4rem;
+.tech_stack_header {
   margin-bottom: 1rem;
-  padding-top: 10rem;
+  padding-top: 15rem;
   margin-left: auto;
 }
 
@@ -207,21 +206,23 @@ h1 {
     font-size: 2.5rem;
     text-align: center;
   }
+}
 
+@media only screen and (width < 500px) {
   .image_container_postgresql {
-    padding: 1rem 1.5rem 0;
+    padding: .9rem 1.5rem 0;
   }
 
   .image_container_npm {
-    padding: 1.5rem 2rem 0;
+    padding: 1rem 2rem 0;
   }
 
   .image_container_docker { 
-    padding: .7rem 1rem 0;
+    padding: 1rem 1rem 0;
   }
 
   .image_container_vs {
-    padding: .9rem 2rem 0;
+    padding: 1.9rem 2rem 0;
   }
 
   .image_container_figma {
@@ -231,15 +232,19 @@ h1 {
   .image_container_npm {
     padding: 0;
   }
+
+  .image_container_vue {
+    padding: 3.55rem 2rem 0;
+  }
 }
 
-@media only screen and (width < 6000px) {
+@media only screen and (width < 5000px) {
   .image_container_npm {
-    padding: 4.7rem 2rem 0;
+    padding: 5.1rem 2rem 0;
   }
 
   .image_container_express {
-    padding: 3rem 2rem 0;
+    padding: 2.8rem 2rem 0;
   }
 
   .image_container_docker {
@@ -252,10 +257,6 @@ h1 {
 
   .image_container_aws {
     padding: 2.8rem 2rem 0;
-  }
-
-  .image_container_vue {
-    padding: 2.1rem 2rem 0;
   }
   
   .image_container_tailwind {

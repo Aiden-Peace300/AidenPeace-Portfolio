@@ -24,7 +24,7 @@ import './Skills.css';
 export default function Skill() {
   return (
     <div>
-      <h1>Tech Stack</h1>
+      <h1 className='tech_stack_header'>Tech Stack</h1>
       <div className="skill_container">
         <a
           href="https://262.ecma-international.org/6.0/"
@@ -53,7 +53,7 @@ export default function Skill() {
             style={{
               fontSize: '1rem',
               textAlign: 'center',
-              margin: '1.2rem 0 1rem 0',
+              margin: '1.2rem -1rem 1rem',
             }}>
             TypeScript
           </h2>
@@ -183,7 +183,7 @@ export default function Skill() {
           target="_blank"
           rel="noopener noreferrer"
           className="image_container">
-          <img className="git_logo\ react" src={GitLogo} alt="git logo" />
+          <img className="git_logo react" src={GitLogo} alt="git logo" />
           <h2
             className="GitLogo"
             style={{
@@ -232,7 +232,7 @@ export default function Skill() {
           rel="noopener noreferrer"
           className="image_container image_container_docker">
           <img
-            className="docker_logo\ react"
+            className="docker_logo react"
             src={DockerLogo}
             alt="docker logo"
           />

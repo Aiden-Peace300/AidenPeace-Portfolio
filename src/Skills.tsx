@@ -24,14 +24,14 @@ import './Skills.css';
 export default function Skill() {
   return (
     <div>
-      <h1>Tech Stack</h1>
-      <div className="skill-container">
+      <h1 className='tech_stack_header'>Tech Stack</h1>
+      <div className="skill_container">
         <a
           href="https://262.ecma-international.org/6.0/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="js-logo" src={JsLogo} alt="javascript logo" />
+          className="image_container">
+          <img className="js_logo" src={JsLogo} alt="javascript logo" />
           <h2
             className="JsLogo"
             style={{
@@ -46,14 +46,14 @@ export default function Skill() {
           href="https://www.typescriptlang.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="ts-logo" src={TsLogo} alt="TypeScript logo" />
+          className="image_container">
+          <img className="ts_logo" src={TsLogo} alt="TypeScript logo" />
           <h2
             className="TsLogo"
             style={{
               fontSize: '1rem',
               textAlign: 'center',
-              margin: '1.2rem 0 1rem 0',
+              margin: '1.2rem -1rem 1rem',
             }}>
             TypeScript
           </h2>
@@ -62,8 +62,8 @@ export default function Skill() {
           href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="html-logo html" src={HTMLLogo} alt="html logo" />
+          className="image_container">
+          <img className="html_logo html" src={HTMLLogo} alt="html logo" />
           <h2
             className="HTMLLogo"
             style={{
@@ -78,8 +78,8 @@ export default function Skill() {
           href="https://developer.mozilla.org/en-US/docs/Web/CSS"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="css-logo css" src={CSSLogo} alt="css logo" />
+          className="image_container">
+          <img className="css_logo css" src={CSSLogo} alt="css logo" />
           <h2
             className="CSSLogo"
             style={{
@@ -94,8 +94,8 @@ export default function Skill() {
           href="https://react.dev/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="react-logo react" src={ReactLogo} alt="react logo" />
+          className="image_container">
+          <img className="react_logo react" src={ReactLogo} alt="react logo" />
           <h2
             className="ReactLogo"
             style={{
@@ -110,9 +110,9 @@ export default function Skill() {
           href="https://www.python.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image_container">
           <img
-            className="python-logo react"
+            className="python_logo python"
             src={PythonLogo}
             alt="python logo"
           />
@@ -130,8 +130,8 @@ export default function Skill() {
           href="https://isocpp.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="cpp-logo react" src={CppLogo} alt="cpp logo" />
+          className="image_container">
+          <img className="cpp_logo react" src={CppLogo} alt="cpp logo" />
           <h2
             className="CppLogo"
             style={{
@@ -146,8 +146,8 @@ export default function Skill() {
           href="https://nodejs.org/en"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="node-logo react" src={NodeJsLogo} alt="node logo" />
+          className="image_container">
+          <img className="node_logo\ react" src={NodeJsLogo} alt="node logo" />
           <h2
             className="NodeLogo"
             style={{
@@ -162,9 +162,9 @@ export default function Skill() {
           href="https://www.postgresql.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container image-container-postgresql">
+          className="image_container image_container_postgresql">
           <img
-            className="postgresql-logo react"
+            className="postgresql_logo react"
             src={PostgreSQLLogo}
             alt="postgresql logo"
           />
@@ -182,8 +182,8 @@ export default function Skill() {
           href="https://git-scm.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="git-logo react" src={GitLogo} alt="git logo" />
+          className="image_container">
+          <img className="git_logo react" src={GitLogo} alt="git logo" />
           <h2
             className="GitLogo"
             style={{
@@ -198,8 +198,8 @@ export default function Skill() {
           href="https://www.npmjs.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container image-container-npm">
-          <img className="npm-logo react" src={NPMLogo} alt="npm logo" />
+          className="image_container image_container_npm">
+          <img className="npm_logo react" src={NPMLogo} alt="npm logo" />
           <h2
             className="NPMLogo"
             style={{
@@ -214,8 +214,8 @@ export default function Skill() {
           href="https://vuejs.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="vue-logo react" src={VueLogo} alt="vue logo" />
+          className="image_container image_container_vue">
+          <img className="vue_logo react" src={VueLogo} alt="vue logo" />
           <h2
             className="VueLogo"
             style={{
@@ -230,9 +230,9 @@ export default function Skill() {
           href="https://www.docker.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container image-container-docker">
+          className="image_container image_container_docker">
           <img
-            className="docker-logo react"
+            className="docker_logo react"
             src={DockerLogo}
             alt="docker logo"
           />
@@ -250,9 +250,9 @@ export default function Skill() {
           href="https://expressjs.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image_container image_container_express">
           <img
-            className="express-logo react"
+            className="express_logo react"
             src={ExpressLogo}
             alt="express logo"
           />
@@ -270,8 +270,8 @@ export default function Skill() {
           href="https://aws.amazon.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="aws-logo react" src={AwsLogo} alt="aws logo" />
+          className="image_container image_container_aws">
+          <img className="aws_logo react" src={AwsLogo} alt="aws logo" />
           <h2
             className="AwsLogo"
             style={{
@@ -286,8 +286,8 @@ export default function Skill() {
           href="https://code.visualstudio.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container image-container-vs">
-          <img className="vs-logo react" src={VisualStudioLogo} alt="vs logo" />
+          className="image_container image_container_vs">
+          <img className="vs_logo react" src={VisualStudioLogo} alt="vs logo" />
           <h2
             className="VisualStudioLogo"
             style={{
@@ -302,9 +302,9 @@ export default function Skill() {
           href="https://www.jetbrains.com/pycharm/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image_container">
           <img
-            className="pycharm-logo react"
+            className="pycharm_logo react"
             src={PycharmLogo}
             alt="pycharm logo"
           />
@@ -322,8 +322,8 @@ export default function Skill() {
           href="https://www.vim.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
-          <img className="vim-logo react" src={VimLogo} alt="vim logo" />
+          className="image_container">
+          <img className="vim_logo vim" src={VimLogo} alt="vim logo" />
           <h2
             className="VimLogo"
             style={{
@@ -338,8 +338,8 @@ export default function Skill() {
           href="https://www.figma.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container image-container-figma">
-          <img className="figma-logo figma" src={FigmaLogo} alt="figma logo" />
+          className="image_container image_container_figma">
+          <img className="figma_logo figma" src={FigmaLogo} alt="figma logo" />
           <h2
             className="FigmaLogo"
             style={{
@@ -354,9 +354,9 @@ export default function Skill() {
           href="https://webpack.js.org/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image_container">
           <img
-            className="webpack-logo react"
+            className="webpack_logo react"
             src={WebpackLogo}
             alt="webpack logo"
           />
@@ -374,9 +374,9 @@ export default function Skill() {
           href="https://tailwindcss.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="image-container">
+          className="image_container image_container_tailwind">
           <img
-            className="tailwind-logo tailwind"
+            className="tailwind_logo tailwind"
             src={TailwindLogo}
             alt="Tailwind logo"
           />

@@ -424,4 +424,9 @@ p {
     margin-bottom: 4rem;
     padding-top: 6.6rem;
   }
+
+  html {
+    width: 100vw
+  }
+  
 }

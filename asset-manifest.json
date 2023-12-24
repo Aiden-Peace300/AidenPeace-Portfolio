@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AidenPeace-Portfolio/static/css/main.7ef87444.css",
-    "main.js": "/AidenPeace-Portfolio/static/js/main.41150a88.js",
+    "main.css": "/AidenPeace-Portfolio/static/css/main.d42832f8.css",
+    "main.js": "/AidenPeace-Portfolio/static/js/main.e72b237b.js",
     "static/media/Final PDR Draft.pdf": "/AidenPeace-Portfolio/static/media/Final PDR Draft.ba2249ee4a6727d59ea1.pdf",
     "static/media/NASA AWARDS.pdf": "/AidenPeace-Portfolio/static/media/NASA AWARDS.a4a47837b7c0a064077e.pdf",
     "static/media/LearningFuze_Group_Picture.jpg": "/AidenPeace-Portfolio/static/media/LearningFuze_Group_Picture.ce6455fa7c494b8e081a.jpg",
@@ -39,18 +39,18 @@
     "static/media/KeywordRelief.png": "/AidenPeace-Portfolio/static/media/KeywordRelief.2a407f2d6ab0ce098c93.png",
     "static/media/nodeJs.png": "/AidenPeace-Portfolio/static/media/nodeJs.1c210094aec5976dbbab.png",
     "static/media/cpp.png": "/AidenPeace-Portfolio/static/media/cpp.ccf711d17ee9e16c8728.png",
-    "static/media/docker.png": "/AidenPeace-Portfolio/static/media/docker.5fcc0c0f99057b690d80.png",
+    "static/media/docker.png": "/AidenPeace-Portfolio/static/media/docker.5354f37b4ec7e3ea2245.png",
     "static/media/tailwind.png": "/AidenPeace-Portfolio/static/media/tailwind.bf981828e8f115a459d5.png",
     "static/media/html.png": "/AidenPeace-Portfolio/static/media/html.ee37b43de931d2c43fc1.png",
     "static/media/typeScript.png": "/AidenPeace-Portfolio/static/media/typeScript.17039f2c84c161e4dc11.png",
     "static/media/css.png": "/AidenPeace-Portfolio/static/media/css.cee0e8eb6d5c1d4ec98b.png",
     "static/media/pycharm.png": "/AidenPeace-Portfolio/static/media/pycharm.835309d452c3896baac0.png",
     "index.html": "/AidenPeace-Portfolio/index.html",
-    "main.7ef87444.css.map": "/AidenPeace-Portfolio/static/css/main.7ef87444.css.map",
-    "main.41150a88.js.map": "/AidenPeace-Portfolio/static/js/main.41150a88.js.map"
+    "main.d42832f8.css.map": "/AidenPeace-Portfolio/static/css/main.d42832f8.css.map",
+    "main.e72b237b.js.map": "/AidenPeace-Portfolio/static/js/main.e72b237b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ef87444.css",
-    "static/js/main.41150a88.js"
+    "static/css/main.d42832f8.css",
+    "static/js/main.e72b237b.js"
   ]
 }

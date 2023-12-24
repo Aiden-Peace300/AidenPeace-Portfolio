@@ -59,4 +59,4 @@ To explore this portfolio locally, follow these steps:
 
 Thank you for visiting my portfolio web app! I invite you to explore the projects, learn about my qualifications, and connect with me on this intricate adventure that intertwines technology, music, the cosmos, and the pursuit of excellence. Feel free to reach out and follow me on my journey. 🚀🌌
 
-© Aiden Peace, 2023. All rights reserved. Vue.js & Tailwind CSS Portfolio.
+© Aiden Peace, 2023. All rights reserved.

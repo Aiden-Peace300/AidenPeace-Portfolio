@@ -91,6 +91,17 @@ input, textarea {
   border-radius: 1rem;
 }
 
+.contact_text,
+.email,
+.linkedIn {
+  font-size: 1.4rem;
+}
+
+.email,
+.linkedIn {
+  color: rgb(107, 200, 205);
+}
+
 @media only screen and (max-width: 620px) {
   .email-popup {
     width: 80%;
@@ -98,5 +109,20 @@ input, textarea {
 
   .email-popup-overlay {
     width: 100%;
+  }
+
+  .contact_label {
+    font-size: 1.2rem;
+  }
+
+  .email-popup-content {
+    margin: 1rem;
+  }
+
+  .contact_text,
+  .email,
+  .linkedIn {
+    font-size: 1rem;
+    margin: 2rem 0;
   }
 }

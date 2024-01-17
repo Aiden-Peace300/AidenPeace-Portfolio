@@ -20,6 +20,7 @@ h1 {
   }
 }
 
+/* styling for photoOfAidenInRecordStore class*/
 .photoOfAidenInRecordStore {
   animation: morph 8s ease-in-out infinite;
   background-image: url('./images/photoOfAidenRecordStore.JPG');

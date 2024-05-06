@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
 import { FaCircle } from 'react-icons/fa';
+import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
+import './Carousel.css';
+
 interface CarouselProps {
   images: string[];
   link: string | null;
@@ -22,28 +25,34 @@ const Carousel: React.FC<CarouselProps> = ({ images, link }) => {
     setCurrentIndex(index);
   };
 
+  const goToPrevSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+  };
+
+  const goToNextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+  };
+
   return (
-    <div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
-      <a
-        href={link ? link : undefined}
-        target="_blank"
-        rel="noopener noreferrer">
-        <div
-          style={{
-            display: 'flex',
-            transition: 'transform 0.5s',
-            transform: `translateX(-${currentIndex * 100}%)`,
-          }}>
-          {images.map((image, index) => (
+    <div style={{ width: '100%', overflow: 'hidden' }}>
+      <div
+        style={{
+          display: 'flex',
+          transition: 'transform 0.5s',
+          transform: `translateX(-${currentIndex * 100}%)`,
+        }}>
+        {images.map((image, index) => (
+          <div key={index} className="image-container">
+            {index === currentIndex && <BsChevronLeft className="left-arrow" onClick={goToPrevSlide} />}
             <img
-              key={index}
               src={image}
               alt={`slide-${index}`}
-              style={{ width: '100%', flex: '0 0 100%' }}
+              style={{ width: '100%', display: 'block' }}
             />
-          ))}
-        </div>
-      </a>
+            {index === currentIndex && <BsChevronRight className="right-arrow" onClick={goToNextSlide} />}
+          </div>
+        ))}
+      </div>
       <div
         style={{
           justifyContent: 'center',

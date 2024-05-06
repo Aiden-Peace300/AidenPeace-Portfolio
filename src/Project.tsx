@@ -36,7 +36,7 @@ const Project: React.FC<ProjectProps> = ({
   return (
     <div className={containerClassName + ' column-mobile'}>
       <Carousel images={photos} link={link} />
-      <div>
+      <div className="project-details">
         <a
           href={link ? link : undefined}
           target="_blank"

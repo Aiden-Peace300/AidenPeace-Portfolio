@@ -15,43 +15,16 @@ export default function About() {
               marginRight: '1rem',
               textAlign: 'left',
             }}>
-            In the expansive realm of coding, I stand as a Full Stack Developer
-            Extraordinaire, a maestro weaving seamless harmonies between
-            front-end elegance and back-end functionality. The dynamic
-            challenges of web development are my playground, where I craft
-            intuitive user interfaces and navigate the intricate labyrinths of
-            server-side logic.
+            In the coding world, I wear the hat of a Full Stack Developer, juggling between crafting user-friendly interfaces and diving into the nitty-gritty of server-side logic. It's a job I enjoy, but outside of the tech bubble, you'll find me geeking out over vinyl records. My collection's got some gems like "Led Zeppelin 1996 - Led Zeppelin," "DAMN by Kendrick Lamar," and "Linkin Park - Meteora," taking me on a nostalgic ride through musical history.
             <br />
             <br />
-            Venturing beyond the digital frontiers, I find solace in the analog
-            embrace of vinyl. As a Vinyl Enthusiast, my collection serves as a
-            living chronicle, each record—be it the timeless "Led Zeppelin 1996
-            - Led Zeppelin," the evocative "DAMN Kendrick Lamar," or the iconic
-            "Linkin Park - Meteora"—opening portals to different eras and
-            inviting me on a sonic journey through the rich tapestry of musical
-            history.
+            Beyond the screen and the turntable, I'm all about soaking in the night sky, especially in Joshua Tree. Armed with a telescope, I play astronomer, checking out constellations, spotting the North Star, and getting lost in the beauty of distant galaxies. There's something almost poetic about staring up at the stars.
             <br />
             <br />
-            The stars, like old friends, beckon me to Joshua Tree—a celestial
-            sanctuary where I unfurl my telescope and lose myself in the vast
-            expanse of the night sky. The dance of constellations, the twinkle
-            of the North Star, and the cosmic symphony of distant galaxies
-            become poetry in the gaze of my telescope.
+            But hey, I'm not just a tech nerd and stargazer—I've got this thing for Muay Thai too. It's my go-to for staying fit and disciplined. A year of intense training has not only toughened me up but also added a touch of artistry to the whole combat dance. Pushing my physical limits and feeling that post-workout satisfaction is my kind of therapy.
             <br />
             <br />
-            Yet, my passions extend beyond the celestial. In the realm of
-            physicality, Muy Thai becomes my canvas for strength and discipline,
-            a discipline I've honed over a year of rigorous training. The
-            artistry in the dance of combat and the satisfaction in pushing my
-            physical limits reveal another facet of my multifaceted journey.
-            <br />
-            <br />
-            Join me on this odyssey where code, vinyl, stars, and the art of
-            combat converge into a tapestry that defines the essence of who I
-            am—Aiden, the developer with a heart that beats to the rhythm of
-            diverse passions. Together, let's embark on this intricate adventure
-            that intertwines technology, music, the cosmos, and the pursuit of
-            physical excellence.{' '}
+            So, if you're up for it, join me on this journey where lines of code, vinyl grooves, starry nights, and some martial arts moves all come together. I'm just Aiden, a regular guy whose heart beats to the rhythm of diverse passions. Let's dive into this adventure where everyday stuff blends seamlessly with the extraordinary.
           </p>
         </div>
         <a

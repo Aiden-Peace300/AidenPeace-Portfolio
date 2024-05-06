@@ -20,6 +20,7 @@ h1 {
   }
 }
 
+/* styling for photoOfAidenInRecordStore class*/
 .photoOfAidenInRecordStore {
   animation: morph 8s ease-in-out infinite;
   background-image: url('./images/photoOfAidenRecordStore.JPG');
@@ -28,11 +29,12 @@ h1 {
   background-size: cover;
   border: 3px solid white;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  height: 30rem; /* change me to your needs */
+  height: 25rem; /* change me to your needs */
   position: relative;
   transition: all 1s ease-in-out;
-  width: 37rem;
+  width: 25rem;
   cursor: pointer;
+  margin: 0 2rem
 }
 
 .about-container {

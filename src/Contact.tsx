@@ -48,7 +48,8 @@ const Contact: React.FC<EmailPopupProps> = ({ onClose }) => {
           <span className="close-icon" onClick={handleClosePopup}>
             &times;
           </span>
-          <h2 className='white'>Contact Aiden Peace</h2>
+          <h2 className='white contact_label'>Contact Aiden Peace</h2>
+          <p className='white contact_text'>Feel free to reach out via <a className="email" href="mailto:aidenpeacecodes@gmail.com">email</a> or direct message on <a className="linkedIn" href="https://www.linkedin.com/in/aiden-peace-025918211/" target="_blank">LinkedIn</a>, always happy to connect!</p>
           <form>
             <label htmlFor="subject" className="white">
               Subject:

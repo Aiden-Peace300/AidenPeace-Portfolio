@@ -43,6 +43,7 @@
   flex-direction: row-reverse;
 }
 
+
 @media only screen and (width < 620px) {
   .project-container {
     flex-direction: column;

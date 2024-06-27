@@ -3,6 +3,14 @@
   flex-direction: row;
 }
 
+.carousel {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .img {
   width: 35rem;
   width: 45rem;

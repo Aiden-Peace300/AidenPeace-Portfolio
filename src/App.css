@@ -3,8 +3,12 @@ The font-family property specifies
 the font to be used for the text 
 inside the body 
 ************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&family=Outfit:wght@600&display=swap");
+
 body {
-  font-family: Poppins, sans-serif;
+  font-family: "Outlet", sans-serif;
+  color: #0088A9;
 }
 
 * {
@@ -20,7 +24,7 @@ li,
 a,
 .cta {
   /* stylelint-disable-next-line font-family-name-quotes */
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Outlet", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: white;
@@ -35,7 +39,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #24252a;
+  background-color: #2c2d33;
   z-index: 1000; /* Set a high z-index to ensure it stays on top */
   display: flex;
   justify-content: flex-end;
@@ -50,12 +54,18 @@ header {
 }
 
 .nav__links {
+  background-color: #2c2d33;
   list-style: none;
   display: flex;
   align-items: center;
 }
 
+.nav__links a {
+  background-color: #2c2d33;
+}
+
 .nav__links li {
+  background-color: #2c2d33;
   display: inline-block;
   padding: 0 20px;
 }
@@ -333,7 +343,7 @@ p {
 }
 
 .meet-text p {
-  font-family: Mulish, sans-serif;
+  font-family: "Outlet", sans-serif;
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.6;

@@ -102,6 +102,10 @@ input, textarea {
   color: rgb(107, 200, 205);
 }
 
+.left-arrow, .right-arrow {
+  color: #0088A9;
+}
+
 @media only screen and (max-width: 620px) {
   .email-popup {
     width: 80%;
